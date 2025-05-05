@@ -401,8 +401,9 @@ excel16;L_Excel972003WorkbooksAndTemplates;L_Excel972003WorkbooksAndTemplatesDro
 excel16;L_ExcelAddInFiles,Excel add-in files,NA,NA
 excel16;L_ExcelAddInFiles;L_ExcelAddInFilesDropID,File block setting:,software\policies\microsoft\office\16.0\excel\security\fileblock,xllfiles
 excel16;L_ExcelDisableOfficeScripts,Disable Office Scripts in Excel for Windows Desktop,software\policies\microsoft\office\16.0\excel\options,disableofficescripts
+excel16;L_ExcelForceSupportForUnicodeSurrogates,Force support for Unicode surrogates in Excel 2021 and Excel 2024,software\policies\microsoft\office\16.0\excel\options,msoridforcesupportforunicodesurrogates
 excel16;L_ExtendDataRangeFormatsAndFormulas,Extend data range formats and formulas,software\policies\microsoft\office\16.0\excel\options,extendlist
-excel16;L_Font,Font,NA,NA
+excel16;L_Font,Default Font,NA,NA
 excel16;L_Font;L_NameSize,Name  Size,software\policies\microsoft\office\16.0\excel\options,font
 excel16;L_Forcefileextenstionstomatch;L_Empty,Force file extension to match file type,software\policies\microsoft\office\16.0\excel\security,extensionhardening
 excel16;L_Forcefileextenstionstomatch,Force file extension to match file type,NA,NA
@@ -431,6 +432,7 @@ excel16;L_MoveselectionafterEnterdirection,Move selection after Enter direction,
 excel16;L_MoveselectionafterEnterdirection;L_moveselectionafterenterdirection84,Move selection after Enter direction,software\policies\microsoft\office\16.0\excel\options,moveenterdir
 excel16;L_OfficeDataConnectionFiles,Microsoft Office data connection files,NA,NA
 excel16;L_OfficeDataConnectionFiles;L_OfficeDataConnectionFilesDropID,File block setting:,software\policies\microsoft\office\16.0\excel\security\fileblock,officedataconnections
+excel16;L_OfficeFileBlockIncludeTrustedFiles,File Block includes trusted files,software\policies\microsoft\office\16.0\excel\security\fileblock,IncludeTrustedFiles
 excel16;L_OfflineCubeFiles,Offline cube files,NA,NA
 excel16;L_OfflineCubeFiles;L_OfflineCubeFilesDropID,File block setting:,software\policies\microsoft\office\16.0\excel\security\fileblock,offlinecubefiles
 excel16;L_OLAPPivotTableUserDefinedFunctionUDFsecuritysetting,OLAP PivotTable User Defined Function (UDF) security setting,NA,NA
@@ -708,6 +710,134 @@ office16;L_Albanian,Albanian,software\policies\microsoft\office\16.0\common\lang
 office16;L_AllowaccenteduppercaseinFrench,Allow accented uppercase in French,software\policies\microsoft\shared tools\proofing tools\1.0\office,enforceaccenteduppercase
 office16;L_AllowedExtensions,Allow file extensions for OLE embedding,NA,NA
 office16;L_AllowedExtensions;L_allowedextensionsole,File extensions:,software\policies\microsoft\office\common\security,allowedextensions
+office16;L_AllowedHateContentGeneralMachine,Allowed severity of hate content in general for the computer.,NA,NA
+office16;L_AllowedHateContentGeneralMachine;L_AllowedHateContentGeneralMachineDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\general,allowedhatecontent
+office16;L_AllowedHateContentGeneralUser,Allowed severity of hate content in general for the user.,NA,NA
+office16;L_AllowedHateContentGeneralUser;L_AllowedHateContentGeneralUserDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\general,allowedhatecontent
+office16;L_AllowedHateContentSpecificAlternativeTextMachine,Allowed severity of hate content to and from the Alternative Text scenario for the computer.,NA,NA
+office16;L_AllowedHateContentSpecificAlternativeTextMachine;L_AllowedHateContentSpecificAlternativeTextMachineDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\alternativetext,allowedhatecontent
+office16;L_AllowedHateContentSpecificAlternativeTextUser,Allowed severity of hate content to and from the Alternative Text scenario for the user.,NA,NA
+office16;L_AllowedHateContentSpecificAlternativeTextUser;L_AllowedHateContentSpecificAlternativeTextUserDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\alternativetext,allowedhatecontent
+office16;L_AllowedHateContentSpecificImageQuestionAndAnsweringMachine,Allowed severity of hate content to and from the Image Question and Answering scenario for the computer.,NA,NA
+office16;L_AllowedHateContentSpecificImageQuestionAndAnsweringMachine;L_AllowedHateContentSpecificImageQuestionAndAnsweringMachineDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\imagequestionandanswering,allowedhatecontent
+office16;L_AllowedHateContentSpecificImageQuestionAndAnsweringUser,Allowed severity of hate content to and from the Image Question and Answering scenario for the user.,NA,NA
+office16;L_AllowedHateContentSpecificImageQuestionAndAnsweringUser;L_AllowedHateContentSpecificImageQuestionAndAnsweringUserDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\imagequestionandanswering,allowedhatecontent
+office16;L_AllowedHateContentSpecificPromptAssistanceMachine,Allowed severity of hate content to and from the Prompt Assistance scenario for the computer.,NA,NA
+office16;L_AllowedHateContentSpecificPromptAssistanceMachine;L_AllowedHateContentSpecificPromptAssistanceMachineDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\promptassistance,allowedhatecontent
+office16;L_AllowedHateContentSpecificPromptAssistanceUser,Allowed severity of hate content to and from the Prompt Assistance scenario for the user.,NA,NA
+office16;L_AllowedHateContentSpecificPromptAssistanceUser;L_AllowedHateContentSpecificPromptAssistanceUserDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\promptassistance,allowedhatecontent
+office16;L_AllowedHateContentSpecificRewriteMachine,Allowed severity of hate content to and from the Rewrite scenario for the computer.,NA,NA
+office16;L_AllowedHateContentSpecificRewriteMachine;L_AllowedHateContentSpecificRewriteMachineDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\rewrite,allowedhatecontent
+office16;L_AllowedHateContentSpecificRewriteUser,Allowed severity of hate content to and from the Rewrite scenario for the user.,NA,NA
+office16;L_AllowedHateContentSpecificRewriteUser;L_AllowedHateContentSpecificRewriteUserDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\rewrite,allowedhatecontent
+office16;L_AllowedHateContentSpecificSummarizationMachine,Allowed severity of hate content to and from the Summarization scenario for the computer.,NA,NA
+office16;L_AllowedHateContentSpecificSummarizationMachine;L_AllowedHateContentSpecificSummarizationMachineDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarization,allowedhatecontent
+office16;L_AllowedHateContentSpecificSummarizationUser,Allowed severity of hate content to and from the Summarization scenario for the user.,NA,NA
+office16;L_AllowedHateContentSpecificSummarizationUser;L_AllowedHateContentSpecificSummarizationUserDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarization,allowedhatecontent
+office16;L_AllowedHateContentSpecificSummarizationWithReferencesMachine,Allowed severity of hate content to and from the Summarization with References scenario for the computer.,NA,NA
+office16;L_AllowedHateContentSpecificSummarizationWithReferencesMachine;L_AllowedHateContentSpecificSummarizationWithReferencesMachineDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarizationwithreferences,allowedhatecontent
+office16;L_AllowedHateContentSpecificSummarizationWithReferencesUser,Allowed severity of hate content to and from the Summarization with References scenario for the user.,NA,NA
+office16;L_AllowedHateContentSpecificSummarizationWithReferencesUser;L_AllowedHateContentSpecificSummarizationWithReferencesUserDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarizationwithreferences,allowedhatecontent
+office16;L_AllowedHateContentSpecificTextToTableMachine,Allowed severity of hate content to and from the Text to Table scenario for the computer.,NA,NA
+office16;L_AllowedHateContentSpecificTextToTableMachine;L_AllowedHateContentSpecificTextToTableMachineDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\texttotable,allowedhatecontent
+office16;L_AllowedHateContentSpecificTextToTableUser,Allowed severity of hate content to and from the Text to Table scenario for the user.,NA,NA
+office16;L_AllowedHateContentSpecificTextToTableUser;L_AllowedHateContentSpecificTextToTableUserDecimal,Allowed severity of hate content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\texttotable,allowedhatecontent
+office16;L_AllowedSelfHarmContentGeneralMachine,Allowed severity of self-harm content in general for the computer.,NA,NA
+office16;L_AllowedSelfHarmContentGeneralMachine;L_AllowedSelfHarmContentGeneralMachineDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\general,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentGeneralUser,Allowed severity of self-harm content in general for the user.,NA,NA
+office16;L_AllowedSelfHarmContentGeneralUser;L_AllowedSelfHarmContentGeneralUserDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\general,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificAlternativeTextMachine,Allowed severity of self-harm content to and from the Alternative Text scenario for the computer.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificAlternativeTextMachine;L_AllowedSelfHarmContentSpecificAlternativeTextMachineDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\alternativetext,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificAlternativeTextUser,Allowed severity of self-harm content to and from the Alternative Text scenario for the user.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificAlternativeTextUser;L_AllowedSelfHarmContentSpecificAlternativeTextUserDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\alternativetext,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificImageQuestionAndAnsweringMachine,Allowed severity of self-harm content to and from the Image Question and Answering scenario for the computer.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificImageQuestionAndAnsweringMachine;L_AllowedSelfHarmContentSpecificImageQuestionAndAnsweringMachineDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\imagequestionandanswering,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificImageQuestionAndAnsweringUser,Allowed severity of self-harm content to and from the Image Question and Answering scenario for the user.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificImageQuestionAndAnsweringUser;L_AllowedSelfHarmContentSpecificImageQuestionAndAnsweringUserDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\imagequestionandanswering,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificPromptAssistanceMachine,Allowed severity of self-harm content to and from the Prompt Assistance scenario for the computer.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificPromptAssistanceMachine;L_AllowedSelfHarmContentSpecificPromptAssistanceMachineDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\promptassistance,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificPromptAssistanceUser,Allowed severity of self-harm content to and from the Prompt Assistance scenario for the user.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificPromptAssistanceUser;L_AllowedSelfHarmContentSpecificPromptAssistanceUserDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\promptassistance,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificRewriteMachine,Allowed severity of self-harm content to and from the Rewrite scenario for the computer.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificRewriteMachine;L_AllowedSelfHarmContentSpecificRewriteMachineDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\rewrite,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificRewriteUser,Allowed severity of self-harm content to and from the Rewrite scenario for the user.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificRewriteUser;L_AllowedSelfHarmContentSpecificRewriteUserDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\rewrite,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificSummarizationMachine,Allowed severity of self-harm content to and from the Summarization scenario for the computer.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificSummarizationMachine;L_AllowedSelfHarmContentSpecificSummarizationMachineDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarization,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificSummarizationUser,Allowed severity of self-harm content to and from the Summarization scenario for the user.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificSummarizationUser;L_AllowedSelfHarmContentSpecificSummarizationUserDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarization,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificSummarizationWithReferencesMachine,Allowed severity of self-harm content to and from the Summarization with References scenario for the computer.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificSummarizationWithReferencesMachine;L_AllowedSelfHarmContentSpecificSummarizationWithReferencesMachineDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarizationwithreferences,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificSummarizationWithReferencesUser,Allowed severity of self-harm content to and from the Summarization with References scenario for the user.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificSummarizationWithReferencesUser;L_AllowedSelfHarmContentSpecificSummarizationWithReferencesUserDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarizationwithreferences,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificTextToTableMachine,Allowed severity of self-harm content to and from the Text to Table scenario for the computer.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificTextToTableMachine;L_AllowedSelfHarmContentSpecificTextToTableMachineDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\texttotable,allowedselfharmcontent
+office16;L_AllowedSelfHarmContentSpecificTextToTableUser,Allowed severity of self-harm content to and from the Text to Table scenario for the user.,NA,NA
+office16;L_AllowedSelfHarmContentSpecificTextToTableUser;L_AllowedSelfHarmContentSpecificTextToTableUserDecimal,Allowed severity of self-harm content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\texttotable,allowedselfharmcontent
+office16;L_AllowedSexualContentGeneralMachine,Allowed severity of sexual content in general for the computer.,NA,NA
+office16;L_AllowedSexualContentGeneralMachine;L_AllowedSexualContentGeneralMachineDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\general,allowedsexualcontent
+office16;L_AllowedSexualContentGeneralUser,Allowed severity of sexual content in general for the user.,NA,NA
+office16;L_AllowedSexualContentGeneralUser;L_AllowedSexualContentGeneralUserDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\general,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificAlternativeTextMachine,Allowed severity of sexual content to and from the Alternative Text scenario for the computer.,NA,NA
+office16;L_AllowedSexualContentSpecificAlternativeTextMachine;L_AllowedSexualContentSpecificAlternativeTextMachineDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\alternativetext,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificAlternativeTextUser,Allowed severity of sexual content to and from the Alternative Text scenario for the user.,NA,NA
+office16;L_AllowedSexualContentSpecificAlternativeTextUser;L_AllowedSexualContentSpecificAlternativeTextUserDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\alternativetext,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificImageQuestionAndAnsweringMachine,Allowed severity of sexual content to and from the Image Question and Answering scenario for the computer.,NA,NA
+office16;L_AllowedSexualContentSpecificImageQuestionAndAnsweringMachine;L_AllowedSexualContentSpecificImageQuestionAndAnsweringMachineDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\imagequestionandanswering,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificImageQuestionAndAnsweringUser,Allowed severity of sexual content to and from the Image Question and Answering scenario for the user.,NA,NA
+office16;L_AllowedSexualContentSpecificImageQuestionAndAnsweringUser;L_AllowedSexualContentSpecificImageQuestionAndAnsweringUserDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\imagequestionandanswering,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificPromptAssistanceMachine,Allowed severity of sexual content to and from the Prompt Assistance scenario for the computer.,NA,NA
+office16;L_AllowedSexualContentSpecificPromptAssistanceMachine;L_AllowedSexualContentSpecificPromptAssistanceMachineDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\promptassistance,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificPromptAssistanceUser,Allowed severity of sexual content to and from the Prompt Assistance scenario for the user.,NA,NA
+office16;L_AllowedSexualContentSpecificPromptAssistanceUser;L_AllowedSexualContentSpecificPromptAssistanceUserDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\promptassistance,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificRewriteMachine,Allowed severity of sexual content to and from the Rewrite scenario for the computer.,NA,NA
+office16;L_AllowedSexualContentSpecificRewriteMachine;L_AllowedSexualContentSpecificRewriteMachineDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\rewrite,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificRewriteUser,Allowed severity of sexual content to and from the Rewrite scenario for the user.,NA,NA
+office16;L_AllowedSexualContentSpecificRewriteUser;L_AllowedSexualContentSpecificRewriteUserDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\rewrite,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificSummarizationMachine,Allowed severity of sexual content to and from the Summarization scenario for the computer.,NA,NA
+office16;L_AllowedSexualContentSpecificSummarizationMachine;L_AllowedSexualContentSpecificSummarizationMachineDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarization,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificSummarizationUser,Allowed severity of sexual content to and from the Summarization scenario for the user.,NA,NA
+office16;L_AllowedSexualContentSpecificSummarizationUser;L_AllowedSexualContentSpecificSummarizationUserDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarization,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificSummarizationWithReferencesMachine,Allowed severity of sexual content to and from the Summarization with References scenario for the computer.,NA,NA
+office16;L_AllowedSexualContentSpecificSummarizationWithReferencesMachine;L_AllowedSexualContentSpecificSummarizationWithReferencesMachineDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarizationwithreferences,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificSummarizationWithReferencesUser,Allowed severity of sexual content to and from the Summarization with References scenario for the user.,NA,NA
+office16;L_AllowedSexualContentSpecificSummarizationWithReferencesUser;L_AllowedSexualContentSpecificSummarizationWithReferencesUserDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarizationwithreferences,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificTextToTableMachine,Allowed severity of sexual content to and from the Text to Table scenario for the computer.,NA,NA
+office16;L_AllowedSexualContentSpecificTextToTableMachine;L_AllowedSexualContentSpecificTextToTableMachineDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\texttotable,allowedsexualcontent
+office16;L_AllowedSexualContentSpecificTextToTableUser,Allowed severity of sexual content to and from the Text to Table scenario for the user.,NA,NA
+office16;L_AllowedSexualContentSpecificTextToTableUser;L_AllowedSexualContentSpecificTextToTableUserDecimal,Allowed severity of sexual content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\texttotable,allowedsexualcontent
+office16;L_AllowedViolentContentGeneralMachine,Allowed severity of violent content in general for the computer.,NA,NA
+office16;L_AllowedViolentContentGeneralMachine;L_AllowedViolentContentGeneralMachineDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\general,allowedviolentcontent
+office16;L_AllowedViolentContentGeneralUser,Allowed severity of violent content in general for the user.,NA,NA
+office16;L_AllowedViolentContentGeneralUser;L_AllowedViolentContentGeneralUserDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\general,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificAlternativeTextMachine,Allowed severity of violent content to and from the Alternative Text scenario for the computer.,NA,NA
+office16;L_AllowedViolentContentSpecificAlternativeTextMachine;L_AllowedViolentContentSpecificAlternativeTextMachineDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\alternativetext,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificAlternativeTextUser,Allowed severity of violent content to and from the Alternative Text scenario for the user.,NA,NA
+office16;L_AllowedViolentContentSpecificAlternativeTextUser;L_AllowedViolentContentSpecificAlternativeTextUserDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\alternativetext,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificImageQuestionAndAnsweringMachine,Allowed severity of violent content to and from the Image Question and Answering scenario for the computer.,NA,NA
+office16;L_AllowedViolentContentSpecificImageQuestionAndAnsweringMachine;L_AllowedViolentContentSpecificImageQuestionAndAnsweringMachineDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\imagequestionandanswering,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificImageQuestionAndAnsweringUser,Allowed severity of violent content to and from the Image Question and Answering scenario for the user.,NA,NA
+office16;L_AllowedViolentContentSpecificImageQuestionAndAnsweringUser;L_AllowedViolentContentSpecificImageQuestionAndAnsweringUserDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\imagequestionandanswering,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificPromptAssistanceMachine,Allowed severity of violent content to and from the Prompt Assistance scenario for the computer.,NA,NA
+office16;L_AllowedViolentContentSpecificPromptAssistanceMachine;L_AllowedViolentContentSpecificPromptAssistanceMachineDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\promptassistance,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificPromptAssistanceUser,Allowed severity of violent content to and from the Prompt Assistance scenario for the user.,NA,NA
+office16;L_AllowedViolentContentSpecificPromptAssistanceUser;L_AllowedViolentContentSpecificPromptAssistanceUserDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\promptassistance,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificRewriteMachine,Allowed severity of violent content to and from the Rewrite scenario for the computer.,NA,NA
+office16;L_AllowedViolentContentSpecificRewriteMachine;L_AllowedViolentContentSpecificRewriteMachineDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\rewrite,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificRewriteUser,Allowed severity of violent content to and from the Rewrite scenario for the user.,NA,NA
+office16;L_AllowedViolentContentSpecificRewriteUser;L_AllowedViolentContentSpecificRewriteUserDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\rewrite,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificSummarizationMachine,Allowed severity of violent content to and from the Summarization scenario for the computer.,NA,NA
+office16;L_AllowedViolentContentSpecificSummarizationMachine;L_AllowedViolentContentSpecificSummarizationMachineDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarization,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificSummarizationUser,Allowed severity of violent content to and from the Summarization scenario for the user.,NA,NA
+office16;L_AllowedViolentContentSpecificSummarizationUser;L_AllowedViolentContentSpecificSummarizationUserDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarization,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificSummarizationWithReferencesMachine,Allowed severity of violent content to and from the Summarization with References scenario for the computer.,NA,NA
+office16;L_AllowedViolentContentSpecificSummarizationWithReferencesMachine;L_AllowedViolentContentSpecificSummarizationWithReferencesMachineDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarizationwithreferences,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificSummarizationWithReferencesUser,Allowed severity of violent content to and from the Summarization with References scenario for the user.,NA,NA
+office16;L_AllowedViolentContentSpecificSummarizationWithReferencesUser;L_AllowedViolentContentSpecificSummarizationWithReferencesUserDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarizationwithreferences,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificTextToTableMachine,Allowed severity of violent content to and from the Text to Table scenario for the computer.,NA,NA
+office16;L_AllowedViolentContentSpecificTextToTableMachine;L_AllowedViolentContentSpecificTextToTableMachineDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\texttotable,allowedviolentcontent
+office16;L_AllowedViolentContentSpecificTextToTableUser,Allowed severity of violent content to and from the Text to Table scenario for the user.,NA,NA
+office16;L_AllowedViolentContentSpecificTextToTableUser;L_AllowedViolentContentSpecificTextToTableUserDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\texttotable,allowedviolentcontent
 office16;L_AllowFileSynchronizationViaSOAPOnlyOnDomainNetworks,Allow file synchronization via SOAP over HTTP only on domain networks,software\policies\microsoft\office\16.0\common\fileio,synconlyondomainnetwork
 office16;L_AllowLinkedInFeatures,Show LinkedIn features in Office applications,software\policies\microsoft\office\16.0\common,linkedin
 office16;L_Allowmixofpolicyanduserlocations,Allow mix of policy and user locations,software\policies\microsoft\office\16.0\common\security\trusted locations,allow user locations
@@ -715,6 +845,7 @@ office16;L_AllowNonAdminUserInstallLAPs,Allow users who aren’t admins to insta
 office16;L_AllowPNGasanoutputformat,Allow PNG as an output format,software\policies\microsoft\office\16.0\common\internet,allowpng
 office16;L_AllowRoamingQuickAccessToolBarRibbonCustomizations,Allow roaming of all user customizations,software\policies\microsoft\office\16.0\common\toolbars,customuiroaming
 office16;L_AllowUnsecureApps,Allow Unsecure web add-ins and Catalogs,software\policies\microsoft\office\16.0\wef\trustedcatalogs,requireserververification
+office16;L_AllowUserDefinedFileShareCatalogs,Allow users to control the Trusted Shared Folder Catalogs,software\policies\microsoft\office\16.0\wef\trustedcatalogs,allowuserdefinedfilesharecatalogs
 office16;L_AllowuserswithearlierversionsofOfficetoreadwithbrowsers,Allow users with earlier versions of Office to read with browsers...,software\policies\microsoft\office\16.0\common\drm,includehtml
 office16;L_AllowVbaIntranetRefs,Allow VBA to load typelib references by path from untrusted intranet locations,software\policies\microsoft\vba\security,allowvbaintranetreferences
 office16;L_AllowWebArchivestobesavedinanyHTMLencoding,Allow Web Archives to be saved in any HTML encoding,software\policies\microsoft\office\16.0\common\internet,donotforceusasciiformhtml
@@ -786,8 +917,11 @@ office16;L_Bindtoobject;L_winprojexe146,winproj.exe,software\microsoft\internet 
 office16;L_Bindtoobject;L_winwordexe147,winword.exe,software\microsoft\internet explorer\main\featurecontrol\feature_safe_bindtoobject,winword.exe
 office16;L_BlockedExtensions,Block additional file extensions for OLE embedding,NA,NA
 office16;L_BlockedExtensions;L_blockedextensionsole,File extensions:,software\policies\microsoft\office\common\security,blockedextensions
+office16;L_BlockInsecureProtocols,Block Insecure Protocols,software\policies\microsoft\office\16.0\common\fileio,blockinsecureprotocols
+office16;L_BlockOLEGraph,Block OLE Graph,software\policies\microsoft\office\16.0\common\security,blockolegraph
 office16;L_BlockopeningofprereleaseExcel,Block opening of pre-release versions of file formats new to Excel 2016 through the Compatibility Pack for Office 2016 and Excel 2016 Converter,software\policies\microsoft\office\16.0\excel\security\fileblock,excel12betafilesfromconverters
 office16;L_BlockopeningofprereleasePPT,Block opening of pre-release versions of file formats new to PowerPoint 2016 through the Compatibility Pack for Office 2016 and PowerPoint 2016 Converter,software\policies\microsoft\office\16.0\powerpoint\security\fileblock,powerpoint12betafilesfromconverters
+office16;L_BlockOrgChart,Block OrgChart,software\policies\microsoft\office\16.0\common\security,blockorgchart
 office16;L_Blockpopups,Block popups,NA,NA
 office16;L_Blockpopups;L_excelexe183,excel.exe,software\microsoft\internet explorer\main\featurecontrol\feature_weboc_popupmanagement,excel.exe
 office16;L_Blockpopups;L_exprwdexe192,exprwd.exe,software\microsoft\internet explorer\main\featurecontrol\feature_weboc_popupmanagement,exprwd.exe
@@ -803,8 +937,11 @@ office16;L_Blockpopups;L_spdesignexe191,spDesign.exe,software\microsoft\internet
 office16;L_Blockpopups;L_visioexe187,visio.exe,software\microsoft\internet explorer\main\featurecontrol\feature_weboc_popupmanagement,visio.exe
 office16;L_Blockpopups;L_winprojexe188,winproj.exe,software\microsoft\internet explorer\main\featurecontrol\feature_weboc_popupmanagement,winproj.exe
 office16;L_Blockpopups;L_winwordexe189,winword.exe,software\microsoft\internet explorer\main\featurecontrol\feature_weboc_popupmanagement,winword.exe
+office16;L_BlockWecFallback,Restrict Apps from FPRPC Fallback,software\policies\microsoft\office\16.0\common\fileio,blockwecfallback
 office16;L_BosnianCyrillicBosniaandHerzegovina,Bosnian (Cyrillic  Bosnia and Herzegovina),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,bs-cyrl-ba
 office16;L_BosnianLatinBosniaandHerzegovina,Bosnian (Latin  Bosnia and Herzegovina),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,bs-latn-ba
+office16;L_BrandManagers,Elevated role for enterprise brand managers,NA,NA
+office16;L_BrandManagers;L_BrandManagersGroup,Security group email address:,software\policies\microsoft\office\16.0\brandmanagers,brandmanagersgroup
 office16;L_Breton,Breton,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,br-fr
 office16;L_Bulgarian,Bulgarian,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,bg-bg
 office16;L_Burmese,Burmese,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,my-mm
@@ -965,6 +1102,8 @@ office16;L_ConfigureBroadcastService09;L_BroadcastServiceServerTerms9,Service ag
 office16;L_ConfigureBroadcastService09;L_BroadcastServiceServerURL9,Service URL:,software\policies\microsoft\office\16.0\common\broadcast\servers\9,serverurl
 office16;L_ConfigureBroadcastService09;L_BroadcastServiceSharedNotesCustomUrl9,Shared Notes Url (optional):,software\policies\microsoft\office\16.0\common\broadcast\servers\9,sharednotescustomurl
 office16;L_ConfigureBroadcastService09,Configure presentation service in PowerPoint and Word 10,NA,NA
+office16;L_ConfigureGetDiagnostics,Configure Get Diagnostics feature's visibility in the Help Ribbon in Office applications and control the feature's mode of operation.,NA,NA
+office16;L_ConfigureGetDiagnostics;L_ConfigureGetDiagnosticsEnum,Configure Get Diagnostics:,software\policies\microsoft\office\16.0\common\diagnostics,configuregetdiagnostics
 office16;L_ConfigurePreCreateInApplicationGuard,Configure Application Guard container precreation,NA,NA
 office16;L_ConfigurePreCreateInApplicationGuard;L_SetAppGuardPreWarmWindowValue,Pre-Create Window (days):,software\policies\microsoft\office\16.0\common\security\applicationguard,prewarmwindow
 office16;L_ConfigurePresenceIcons,Configure presence icons,NA,NA
@@ -991,8 +1130,15 @@ office16;L_ControlBlogging,Control Blogging,NA,NA
 office16;L_ControlBlogging;L_empty503,Control Blogging,software\policies\microsoft\office\common\blog,disableblog
 office16;L_ConversionServicesoptions,Conversion Service Options,NA,NA
 office16;L_ConversionServicesoptions;L_ConversionServicesoptions236,Conversion Service options,software\policies\microsoft\office\16.0\common\internet,useconversionservices
-office16;L_CopilotContentGeneration;L_CopilotContentGeneration1,Choose the Copilot authoring behavior,software\policies\microsoft\office\16.0\common\copilot,CopilotContentGeneration
-office16;L_CopilotContentGeneration,Microsoft 365 Copilot authoring,NA,NA
+office16;L_CopilotAdmin,Control Admin Copilot availability in Microsoft 365 Admin Center,software\policies\microsoft\office\16.0\common\copilot,CopilotAdmin
+office16;L_CopilotEngagedMode,Enable Engaged Mode on Copilot Responsible AI,software\policies\microsoft\office\16.0\common\copilot,CopilotEngagedMode
+office16;L_CopilotFileUpload,Allow file upload in Copilot,NA,NA
+office16;L_CopilotFileUpload;L_CopilotFileUploadOptions,Options,software\policies\microsoft\office\16.0\common\copilot,CopilotFileUpload
+office16;L_CopilotFrontier,Allow users to access Frontier features,software\policies\microsoft\office\16.0\common\copilot,CopilotFrontier
+office16;L_CopilotLimitedMode,Copilot Sentiment Response Control,software\policies\microsoft\office\16.0\common\copilot,CopilotLimitedMode
+office16;L_CopilotPinning,Pin Microsoft 365 Copilot Chat,software\policies\microsoft\office\16.0\common\copilot,CopilotPinning
+office16;L_CopilotWebSearch,Allow web search in Copilot,NA,NA
+office16;L_CopilotWebSearch;L_CopilotWebSearchOptions,Options,software\policies\microsoft\office\16.0\common\copilot,CopilotWebSearch
 office16;L_CorrectaccidentaluseofcAPSLOCKkey,Correct accidental use of cAPS LOCK key,software\policies\microsoft\office\16.0\common\autocorrect,togglecapslock
 office16;L_CorrectTWoINitialCApitals,Correct TWo INitial CApitals,software\policies\microsoft\office\16.0\common\autocorrect,correcttwoinitialcapitals
 office16;L_Corsican,Corsican,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,co-fr
@@ -1032,6 +1178,10 @@ office16;L_DefaultUIThemeUser,Default Office theme,NA,NA
 office16;L_DeferUpdateDays,Delay downloading and installing updates for Office,NA,NA
 office16;L_DeferUpdateDays;L_DeferUpdateDaysID,Days:,software\policies\microsoft\office\16.0\common\officeupdate,deferupdatedays
 office16;L_DeleteFilesFromOfficeDocumentCache,Delete files from Office Document Cache,software\policies\microsoft\office\16.0\common\fileio,disablelongtermcaching
+office16;L_DesignerImageGeneration,Control access to Designer Image Generation,software\policies\microsoft\office\16.0\designer,DesignerImageGeneration
+office16;L_DesignerPrivacyLink,Enable tenant admin to add customized privacy link to user consent dialog,NA,NA
+office16;L_DesignerPrivacyLink;L_DesignerPrivacyLink1,Privacy policy link:,software\policies\microsoft\office\16.0\designer,DesignerPrivacyLink
+office16;L_DesignerRestyleOptOut,Allow tenant to opt-out of Designer's Restyle image experience,software\policies\microsoft\office\16.0\designer,DesignerRestyleOptOut
 office16;L_DisableAllActiveX,Disable All ActiveX,software\policies\microsoft\office\common\security,disableallactivex
 office16;L_DisableAllCatalogs,Block Web Add-ins,software\policies\microsoft\office\16.0\wef\trustedcatalogs,disableallcatalogs
 office16;L_DisableallTrustBarnotificationsfor,Disable all Trust Bar notifications for security issues,software\policies\microsoft\office\16.0\common\trustcenter,trustbar
@@ -1042,6 +1192,22 @@ office16;L_DisableBuiltinIGXGraphics,Disable built-in graphics,software\policies
 office16;L_DisablebuiltinQuickStyles,Disable Built-in Quick Styles,software\policies\microsoft\office\16.0\common\smartart graphics,hidebuiltindiagramstyles
 office16;L_DisableClipboardToolbartriggers,Disable Clipboard Toolbar triggers,software\policies\microsoft\office\16.0\common\general,acbcontrol
 office16;L_DisableComingSoon,Turn off Coming Soon,software\policies\microsoft\office\16.0\common\general,disablecomingsoon
+office16;L_DisableContentSafetyGeneralMachine,Disable local content safety in general for the computer.,software\policies\microsoft\office\16.0\common\ai\contentsafety\general,disablecontentsafety
+office16;L_DisableContentSafetyGeneralUser,Disable local content safety in general for the user.,software\policies\microsoft\office\16.0\common\ai\contentsafety\general,disablecontentsafety
+office16;L_DisableContentSafetySpecificAlternativeTextMachine,Disable local content safety to and from the Alternative Text scenario for the computer.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\alternativetext,disablecontentsafety
+office16;L_DisableContentSafetySpecificAlternativeTextUser,Disable local content safety to and from the Alternative Text scenario for the user.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\alternativetext,disablecontentsafety
+office16;L_DisableContentSafetySpecificImageQuestionAndAnsweringMachine,Disable local content safety to and from the Image Question and Answering scenario for the computer.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\imagequestionandanswering,disablecontentsafety
+office16;L_DisableContentSafetySpecificImageQuestionAndAnsweringUser,Disable local content safety to and from the Image Question and Answering scenario for the user.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\imagequestionandanswering,disablecontentsafety
+office16;L_DisableContentSafetySpecificPromptAssistanceMachine,Disable local content safety to and from the Prompt Assistance scenario for the computer.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\promptassistance,disablecontentsafety
+office16;L_DisableContentSafetySpecificPromptAssistanceUser,Disable local content safety to and from the Prompt Assistance scenario for the user.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\promptassistance,disablecontentsafety
+office16;L_DisableContentSafetySpecificRewriteMachine,Disable local content safety to and from the Rewrite scenario for the computer.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\rewrite,disablecontentsafety
+office16;L_DisableContentSafetySpecificRewriteUser,Disable local content safety to and from the Rewrite scenario for the user.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\rewrite,disablecontentsafety
+office16;L_DisableContentSafetySpecificSummarizationMachine,Disable local content safety to and from the Summarization scenario for the computer.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarization,disablecontentsafety
+office16;L_DisableContentSafetySpecificSummarizationUser,Disable local content safety to and from the Summarization scenario for the user.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarization,disablecontentsafety
+office16;L_DisableContentSafetySpecificSummarizationWithReferencesMachine,Disable local content safety to and from the Summarization with References scenario for the computer.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarizationwithreferences,disablecontentsafety
+office16;L_DisableContentSafetySpecificSummarizationWithReferencesUser,Disable local content safety to and from the Summarization with References scenario for the user.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\summarizationwithreferences,disablecontentsafety
+office16;L_DisableContentSafetySpecificTextToTableMachine,Disable local content safety to and from the Text to Table scenario for the computer.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\texttotable,disablecontentsafety
+office16;L_DisableContentSafetySpecificTextToTableUser,Disable local content safety to and from the Text to Table scenario for the user.,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\texttotable,disablecontentsafety
 office16;L_DisableDefaultService,Remove Office Presentation Service from the list of online presentation services in PowerPoint and Word,software\policies\microsoft\office\16.0\common\broadcast,disabledefaultservice
 office16;L_DisableDocumentInformationPanel,Disable Document Information Panel,software\policies\microsoft\office\16.0\common\documentinformationpanel,disable
 office16;L_DisableFaxOverInternetfeature,Disable Internet Fax feature,software\policies\microsoft\office\16.0\common\services\fax,nofax
@@ -1082,6 +1248,10 @@ office16;L_DisableToolbarCustomizationUIPolicy;L_DisableToolbarCustomizationUISP
 office16;L_DisableToolbarCustomizationUIPolicy;L_DisableToolbarCustomizationUISPW,Disallow in SharePoint Workspace,software\policies\microsoft\office\16.0\common\toolbars\groove,disabletoolbarcustomizationui
 office16;L_DisableToolbarCustomizationUIPolicy;L_DisableToolbarCustomizationUIVisio,Disallow in Visio,software\policies\microsoft\office\16.0\common\toolbars\visio,disabletoolbarcustomizationui
 office16;L_DisableToolbarCustomizationUIPolicy;L_DisableToolbarCustomizationUIWord,Disallow in Word,software\policies\microsoft\office\16.0\common\toolbars\word,disabletoolbarcustomizationui
+office16;L_DisableTrainingMachine,Disable local training of all features for the computer.,software\policies\microsoft\office\16.0\common\ai\training\general,disabletraining
+office16;L_DisableTrainingOfAdaptiveFloatieMachine,Disable local training of the Adaptive Floatie feature for the computer.,software\policies\microsoft\office\16.0\common\ai\training\specific\adaptivefloatie,disabletrainingofadaptivefloatie
+office16;L_DisableTrainingOfAdaptiveFloatieUser,Disable local training of the Adaptive Floatie feature for the user.,software\policies\microsoft\office\16.0\common\ai\training\specific\adaptivefloatie,disabletrainingofadaptivefloatie
+office16;L_DisableTrainingUser,Disable local training of all features for the user.,software\policies\microsoft\office\16.0\common\ai\training\general,disabletraining
 office16;L_Disableuserfromsettingpersonalsiteasdefaultlocation,Disable user from setting personal site as default location,software\policies\microsoft\office\16.0\common\portal,disablesetpersonalsite
 office16;L_Disableusernameandpassword,Disable user name and password,NA,NA
 office16;L_Disableusernameandpassword;L_excelexe127,excel.exe,software\microsoft\internet explorer\main\featurecontrol\feature_http_username_password_disable,excel.exe
@@ -1230,10 +1400,10 @@ office16;L_EvictServerVersionsPolicy,Age out the locally cached copies of server
 office16;L_EvictServerVersionsPolicy;L_EvictServerVersionsPolicyDecimal,Number of days,software\policies\microsoft\office\16.0\common\fileio,evictserverversionspolicy
 office16;L_Faeroese,Faeroese,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,fo-fo
 office16;L_federatedSearchForHelp,Federated search for help,software\policies\microsoft\office\16.0\common\helpviewer,enablefederatedhelpsearch
+office16;L_FeedbackOptionsDefaults,Set default options for feedback being submitted to Microsoft,NA,NA
 office16;L_FeedbackOptionsDefaults;L_FeedbackOptionsDefaultsContentSamples,Default for content samples,software\policies\microsoft\office\16.0\common\feedback,ContentSamplesDefault
 office16;L_FeedbackOptionsDefaults;L_FeedbackOptionsDefaultsEmail,Default for email collection,software\policies\microsoft\office\16.0\common\feedback,EmailDefault
 office16;L_FeedbackOptionsDefaults;L_FeedbackOptionsDefaultsScreenshot,Default for screenshots,software\policies\microsoft\office\16.0\common\feedback,ScreenshotDefault
-office16;L_FeedbackOptionsDefaults,Set default options for feedback being submitted to Microsoft,NA,NA
 office16;L_FilePreviewing;L_empty196,File Previewing,software\policies\microsoft\office\16.0\common\disabledpreviewhandlers,
 office16;L_FilePreviewing,File Previewing,NA,NA
 office16;L_Filipino,Filipino,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,fil-ph
@@ -1345,6 +1515,7 @@ office16;L_Latvian,Latvian,software\policies\microsoft\office\16.0\common\langua
 office16;L_Legacyformatsignatires,Legacy format signatures,software\policies\microsoft\office\16.0\common\signatures,enablecreationofweakxpsignatures
 office16;L_LengthADattributecontainingPersonalSiteURL;L_empty425,Length AD Attribute containing Personal Site URL,software\policies\microsoft\office\16.0\common\portal,adpersonalsitepropertylen
 office16;L_LengthADattributecontainingPersonalSiteURL,Length AD Attribute containing Personal Site URL,NA,NA
+office16;L_LinksOpenRightDefaultSettingIsNative,File links open preference default selection as Desktop App,software\policies\microsoft\office\16.0\common\internet,linksopenrightdefaultsettingisnative
 office16;L_Listfontnamesintheirfont,List font names in their font,software\policies\microsoft\office\16.0\common\toolbars,fontview
 office16;L_ListofApprovedLocationsPolicy;L_ListofApprovedLocations,List of Approved Locations:,software\policies\microsoft\office\16.0\common\open find\restrictedbrowse,
 office16;L_ListofApprovedLocationsPolicy,Approve Locations,NA,NA
@@ -1374,16 +1545,17 @@ office16;L_LogFileEntriesNumber,Log File Entries Number,NA,NA
 office16;L_LogFileMaximumsize,Log File Maximum Size,NA,NA
 office16;L_LogFileMaximumsize;L_LogFileMaximumsizePart,Bytes:,software\policies\microsoft\office\16.0\common\smartart graphics,logfilemaxsize
 office16;L_Loop,Create and view Loop files in Microsoft apps that support Loop,software\policies\microsoft\office\16.0\common\loop,Loop
-office16;L_Loop_App,Create and view Loop workspaces in Loop,software\policies\microsoft\office\16.0\common\loop,Loop_App
-office16;L_Loop_App_Integrations,Import  view and edit  items from apps integrated with Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrations
-office16;L_Loop_App_Integrations_DevOps,Import  view and edit  Azure DevOps items from Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsDevOps
-office16;L_Loop_App_Integrations_GitHub,Import  view and edit  GitHub items from Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsGitHub
-office16;L_Loop_App_Integrations_Jira,Import  view and edit  Jira issues from Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsJira
+office16;L_LoopGroupWorkspaces,Require Existing Microsoft 365 Group for New Loop Workspaces,software\policies\microsoft\office\16.0\common\loop,LoopGroupWorkspaces
+office16;L_Loop_App,Create Loop workspaces in Loop,software\policies\microsoft\office\16.0\common\loop,Loop_App
+office16;L_Loop_App_Integrations,Allow external data integrations in Loop so users can import  view and edit items using Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrations
+office16;L_Loop_App_Integrations_DevOps,Allow Azure DevOps external data integration in Loop so users can import  view and edit items using Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsDevOps
+office16;L_Loop_App_Integrations_GitHub,Allow GitHub external data integration in Loop so users can import  view and edit items using Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsGitHub
+office16;L_Loop_App_Integrations_Jira,Allow Jira external data integration in Loop so users can import  view and edit items using Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsJira
 office16;L_Loop_App_Integrations_PowerAutomate,Set-up and execute automation rules in Loop via Power automate integration,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsPowerAutomate
-office16;L_Loop_App_Integrations_Trello,Import  view and edit  Trello boards from Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsTrello
+office16;L_Loop_App_Integrations_Trello,Allow Trello external data integration in Loop so users can import  view and edit items using Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsTrello
 office16;L_Loop_app_SPOSiteStorage,Create and view Loop files in Loop using workspaces in SPO Sites,software\policies\microsoft\office\16.0\common\loop,LoopAppSPOSiteStorage
+office16;L_Loop_BizChatDocs,Create and view Copilot Pages and Copilot Notebooks,software\policies\microsoft\office\16.0\common\loop,LoopBizChatDocs
 office16;L_Loop_Figma,Unfurl Figma file & prototype links as embeds in Loop pages,software\policies\microsoft\office\16.0\common\loop,LoopFigma
-office16;L_Loop_Outlook_Draft,[Removed] Turn off Draft with Copilot in Outlook,software\policies\microsoft\office\16.0\common\loop,LoopOutlookDraft
 office16;L_Loop_Planner,View and edit Planner plans with the Planner Loop component,software\policies\microsoft\office\16.0\common\loop,LoopPlanner
 office16;L_Loop_Polls,View and Edit Polls with the Polls Loop component,software\policies\microsoft\office\16.0\common\loop,LoopPolls
 office16;L_Loop_Whiteboard,Create and view Whiteboard files in Microsoft apps that support Loop,software\policies\microsoft\office\16.0\common\loop,LoopWhiteboard
@@ -1452,6 +1624,7 @@ office16;L_MoreActionsURL,More actions URL,NA,NA
 office16;L_MoreActionsURL;L_MoreActionsURLEditID,More Actions URL:,software\policies\microsoft\office\common\smart tag,checkfornewsmarttags
 office16;L_MRUTemplateListLength,Most Recently Used Template List Length,NA,NA
 office16;L_MRUTemplateListLength;L_mrutemplatelistlength505,Most Recently Used Template List Length,software\policies\microsoft\office\16.0\common\general,filenewmrumaxitems
+office16;L_MultiAcctCopilot,Multiple account access to Copilot for work documents,software\policies\microsoft\office\16.0\common\privacy,MultiAcctCopilot
 office16;L_NavigateURL;L_excelexe169,excel.exe,software\microsoft\internet explorer\main\featurecontrol\feature_validate_navigate_url,excel.exe
 office16;L_NavigateURL;L_exprwdexe178,exprwd.exe,software\microsoft\internet explorer\main\featurecontrol\feature_validate_navigate_url,exprwd.exe
 office16;L_NavigateURL;L_grooveexe168,groove.exe,software\microsoft\internet explorer\main\featurecontrol\feature_validate_navigate_url,groove.exe
@@ -1700,6 +1873,7 @@ office16;L_RestrictFileDownload;L_spdesignexe9,spDesign.exe,software\microsoft\i
 office16;L_RestrictFileDownload;L_visioexe5,visio.exe,software\microsoft\internet explorer\main\featurecontrol\feature_restrict_filedownload,visio.exe
 office16;L_RestrictFileDownload;L_winprojexe6,winproj.exe,software\microsoft\internet explorer\main\featurecontrol\feature_restrict_filedownload,winproj.exe
 office16;L_RestrictFileDownload;L_winwordexe7,winword.exe,software\microsoft\internet explorer\main\featurecontrol\feature_restrict_filedownload,winword.exe
+office16;L_RestrictKFMFromOffice,Restrict KFM from Office,software\policies\microsoft\office\16.0\common\kfm,disablekfmbusbarforcommercialusers
 office16;L_RetryIntervalLimit,Set subscription refresh retry interval,NA,NA
 office16;L_RetryIntervalLimit;L_RetryIntervalLimitDecimal,Maximum retry interval (minutes),software\policies\microsoft\office\16.0\common\business data\synchronization,retry interval limit
 office16;L_RomanianMoldova,Romanian (Moldova),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,ro-md
@@ -1770,8 +1944,10 @@ office16;L_SelectDigitalSignatureMinDSABits;L_SelectDigitalSignatureHashingAlgor
 office16;L_SelectDigitalSignatureMinDSABits,Configure minimum DSA public key size,NA,NA
 office16;L_SelectDigitalSignatureMinRSABits;L_SelectDigitalSignatureHashingAlgorithmDropID,Configure minimum RSA public key size,software\policies\microsoft\office\16.0\common\signatures,minsigningrsabits
 office16;L_SelectDigitalSignatureMinRSABits,Configure minimum RSA public key size,NA,NA
+office16;L_SendCopilotFeedback,Allow Copilot users to submit feedback to Microsoft,software\policies\microsoft\office\16.0\common\feedback,sendcopilotfeedback
 office16;L_Sendcustomerdata,Send personal information,software\policies\microsoft\office\16.0\common,sendcustomerdata
 office16;L_SendFeedback,Allow users to submit feedback to Microsoft,software\policies\microsoft\office\16.0\common\feedback,enabled
+office16;L_SendLimitedFeedback,Allow users to submit limited feedback to Microsoft,software\policies\microsoft\office\16.0\common\feedback,SendLimitedFeedback
 office16;L_SendSurvey,Allow users to receive and respond to in-product surveys from Microsoft,software\policies\microsoft\office\16.0\common\feedback,surveyenabled
 office16;L_SendTelemetry,Configure the level of client software diagnostic data sent by Office to Microsoft,NA,NA
 office16;L_SendTelemetry;L_SendTelemetryDropID,Level,software\policies\microsoft\office\common\clienttelemetry,sendtelemetry
@@ -1895,6 +2071,7 @@ office16;L_Targetmonitor;L_Screensize,Screen size,software\policies\microsoft\of
 office16;L_Targetmonitor,Target monitor,NA,NA
 office16;L_Tatar,Tatar,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,tt-ru
 office16;L_Telugu,Telugu,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,te-in
+office16;L_TestSendFeedback,THIS IS A TEST POLICY,software\policies\microsoft\office\16.0\common\test,test
 office16;L_Thai,Thai,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,th-th
 office16;L_TibetanPRC,Tibetan (China),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,bo-cn
 office16;L_TigrinyaEritrea,Tigrinya (Eritrea),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,ti-er
@@ -2225,6 +2402,8 @@ office16;L_UpdateChannelSelectorUser;L_UC_Production,Current Channel,software\po
 office16;L_UpdateChannelSelectorUser;L_UC_SAE,Semi-Annual Enterprise Channel,software\policies\microsoft\office\16.0\common\officechannelexposure,deferred
 office16;L_UpdateChannelSelectorUser;L_UC_SAEPreview,Semi-Annual Enterprise Channel (Preview),software\policies\microsoft\office\16.0\common\officechannelexposure,firstreleasedeferred
 office16;L_UpdateChannelSelectorUser,Show the Update Channel option to allow users to select an update channel,software\policies\microsoft\office\16.0\common,suppressofficechannelselector
+office16;L_UpdateChannelSelectorUser_MSFTCC,MSFTCC - Show the Update Channel option to allow users to select an update channel,software\policies\microsoft\office\16.0\common,suppressofficechannelselector
+office16;L_UpdateChannelSelectorUser_MSFTCC;L_UC_MicrosoftCC,Microsoft Current Channel (OuterRing),software\policies\microsoft\office\16.0\common\officechannelexposure,MicrosoftCurrentChannel
 office16;L_UpdateDeadline,Update Deadline,NA,NA
 office16;L_UpdateDeadline;L_UpdateDeadlineID,Deadline:,software\policies\microsoft\office\16.0\common\officeupdate,updatedeadline
 office16;L_Updatelinksonsave,Update links on save,software\policies\microsoft\office\16.0\common\internet,donotupdatelinksonsave
@@ -2518,6 +2697,7 @@ onent16;L_Specifyratetosampleaudiobitssecond;L_BitsSecond,Bits/Second:,software\
 onent16;L_Specifyratetosampleaudiobitssecond,Specify rate to sample audio (bits/second),NA,NA
 onent16;L_Turnoffautocalculator,Turn off auto calculator,software\policies\microsoft\office\16.0\onenote\options\editing,autocalculate
 onent16;L_TurnOffLinkCreationWith,Turn off link creation with [[ ]],software\policies\microsoft\office\16.0\onenote\options\editing,wikilink
+onent16;L_TurnOffNewStickyNotesInOneNote,Disable the new Sticky Notes experience,software\policies\microsoft\office\16.0\onenote\options\other,ismemorywindowdisabled
 onent16;L_TurnOffOneNoteAutoLinkedNoteTaking,Turn off OneNote auto-linked note taking,software\policies\microsoft\office\16.0\onenote\options\linkednotes,autolink
 onent16;L_TurnOffVersionsAndNotebookRecycleBinInSharedNotebooks,Turn off Versions and Notebook Recycle Bin in shared notebooks,software\policies\microsoft\office\16.0\onenote\options\versions,enablehistory
 onent16;L_Usepenpressuresensitivity,Use pen pressure sensitivity,software\policies\microsoft\office\16.0\onenote\options\pen,inkpressure
@@ -2642,6 +2822,7 @@ outlk16;L_DisableCalendarSearchAgendaView,Do not allow Calendar search agenda vi
 outlk16;L_Disablechangingfolderpermissions,Do not allow users to change permissions on folders,software\policies\microsoft\office\16.0\outlook\options\folders,disableeditpermissions
 outlk16;L_disablecommandbar38,Disable command bar buttons and menu items,NA,NA
 outlk16;L_disablecommandbar38;L_EnteracommandbarIDtodisable,Enter a command bar ID to disable,software\policies\microsoft\office\16.0\outlook\disabledcmdbaritemslist,
+outlk16;L_DisableComToWebAddinUpgrade,Disable web add-in installation on migration to new Outlook for Windows,software\policies\microsoft\office\16.0\outlook\addins,disablecomtowebupgrade
 outlk16;L_DisableContinuebuttononallEncryptionwarningdialogs,Do not provide Continue option on Encryption warning dialog boxes,software\policies\microsoft\office\16.0\outlook\security,disablecontinueencryption
 outlk16;L_DisableCrashNotificationOnRestart,Disable the Outlook crash notification when Outlook restarts.,software\policies\microsoft\office\16.0\outlook\options\general,disablecrashnotificationonrestart
 outlk16;L_Disabledistributionlistexpansion,Do not expand Contact Groups,software\policies\microsoft\office\16.0\outlook\options\mail,disabledlexpansion
@@ -2697,6 +2878,7 @@ outlk16;L_DisallowDownloadHeadersthenFullItemsFileCachedExchangeMode,Disallow Do
 outlk16;L_DisallowOnSlowConnectionsOnlyDownloadHeadersFileCachedExchan,Disallow On Slow Connections Only Download Headers,software\policies\microsoft\office\16.0\outlook\cached mode,noslowheaders
 outlk16;L_DisplayDeveloperTab,Display Developer tab in the Ribbon,software\policies\microsoft\office\16.0\outlook\options,developertools
 outlk16;L_DisplaySenderPicture,Display Sender Picture,software\policies\microsoft\office\16.0\outlook\options\mail,showcontactpicture
+outlk16;L_DoNewOutlookAutoMigration,Admin-Controlled Migration to New Outlook,software\policies\microsoft\office\16.0\outlook\options\general,donewoutlookautomigration
 outlk16;L_DoNotAllowHorizontalCalendarView,Do not allow horizontal calendar view,software\policies\microsoft\office\16.0\outlook\options\calendar,disablehorizontalcalendar
 outlk16;L_DoNotAllowOnDemandActivitySynchronization,Do not allow on-demand activity synchronization,software\policies\microsoft\office\outlook\socialconnector,ondemandactivitysync
 outlk16;L_Donotautomaticallysignreplies,Do not automatically sign replies,software\policies\microsoft\office\16.0\outlook\security,nosignonreply
@@ -2829,6 +3011,8 @@ outlk16;L_Lockedformregions,Locked form regions,NA,NA
 outlk16;L_LogSharePointsyncRequestsandResponses,Log SharePoint sync requests and responses,software\policies\microsoft\office\16.0\outlook\options\mail,enablewsssynclogging
 outlk16;L_Loop_Outlook,Create and view Loop files in Outlook,software\policies\microsoft\office\16.0\common\loop,LoopOutlook
 outlk16;L_Mailaccountoptions,Mail account options,software\policies\microsoft\office\16.0\outlook\options\mail,send mail immediately
+outlk16;L_MailTipsBarDisplayOption,MailTips bar display options,NA,NA
+outlk16;L_MailTipsBarDisplayOption;L_MailTipsBarDisplayOptions,MailTips bar display options,software\policies\microsoft\office\16.0\outlook\options\mail,mailtipsbardisplayoption
 outlk16;L_MakeOutlookthedefaultprogramforEmailContactsandCalendar,Make Outlook the default program for E-mail  Contacts  and Calendar,software\policies\microsoft\office\16.0\outlook\options\general,check default client
 outlk16;L_ManagingCategoriesduringe_mailexchanges;L_AcceptCategoriesassignedtoincomingmailbythesender,Accept Categories assigned to incoming mail by the sender,software\policies\microsoft\office\16.0\outlook\preferences,msoridolacceptcategories
 outlk16;L_ManagingCategoriesduringe_mailexchanges,Managing Categories during e-mail exchanges,NA,NA
@@ -2845,7 +3029,7 @@ outlk16;L_MessageFormats,Message Formats,NA,NA
 outlk16;L_MessageFormats;L_Supportthefollowingmessageformats,Support the following message formats:,software\policies\microsoft\office\16.0\outlook\security,msgformats
 outlk16;L_Messagehandling;L_aftermovingordeletinganopenitem0,After moving or deleting an open item:,software\policies\microsoft\office\16.0\outlook\preferences,aftermove
 outlk16;L_Messagehandling;L_Automaticallycleanupplaintextmessages,Automatically clean up plain text messages,software\policies\microsoft\office\16.0\outlook\options\mail,autoformatplaintext
-outlk16;L_Messagehandling;L_Autosaveunsenteveryxxminutes0NoAutoSave,Autosave unsent every xx minutes (0=No AutoSave):,software\policies\microsoft\office\16.0\common\mailsettings,autosavetime
+outlk16;L_Messagehandling;L_Autosaveunsenteveryxxminutes0NoAutoSave,Autosave unsent every xx minutes (0=No AutoSave):,software\policies\microsoft\office\16.0\outlook\preferences,autosavetime
 outlk16;L_Messagehandling;L_Closeoriginalmessagewhenreplyorforward,Close original message when reply or forward,software\policies\microsoft\office\16.0\outlook\preferences,closeorig
 outlk16;L_Messagehandling,Message handling,NA,NA
 outlk16;L_Messagehandling;L_SavecopiesofmessagesinSentItemsfolder,Save copies of messages in Sent Items folder,software\policies\microsoft\office\16.0\outlook\preferences,savesent
@@ -2866,6 +3050,9 @@ outlk16;L_Moresavemessages,More save messages,NA,NA
 outlk16;L_Moresavemessages;L_Saveforwardedmessages,Save forwarded messages,software\policies\microsoft\office\16.0\outlook\preferences,savefw
 outlk16;L_MSGUnicodeformatwhendraggingtofilesystem,Use Unicode format when dragging e-mail message to file system,software\policies\microsoft\office\16.0\outlook\options\general,msgformat
 outlk16;L_NewMailDesktopAlert,Do not display New Mail alert for users,software\policies\microsoft\office\16.0\outlook\preferences,newmaildesktopalerts
+outlk16;L_NewOutlookAutoMigrationRetryIntervals,Interval between new Outlook migration attempts,NA,NA
+outlk16;L_NewOutlookAutoMigrationRetryIntervals;L_NewOutlookAutoMigrationRetryIntervalsId,New Outlook Auto Migration Retry Interval:,software\policies\microsoft\office\16.0\outlook\options\general,newoutlookautomigrationretryintervals
+outlk16;L_NewOutlookMigrationUserSetting,Manage user setting for new Outlook automatic migration,software\policies\microsoft\office\16.0\outlook\preferences,newoutlookmigrationusersetting
 outlk16;L_NoPromptLevel1Close,Do not prompt about Level 1 attachments when closing an item,software\policies\microsoft\office\16.0\outlook\security,dontpromptlevel1attachclose
 outlk16;L_NoPromptLevel1Send,Do not prompt about Level 1 attachments when sending an item,software\policies\microsoft\office\16.0\outlook\security,dontpromptlevel1attachsend
 outlk16;L_NotesFolderHomePage,Notes Folder Home Page,NA,NA
@@ -3058,6 +3245,7 @@ outlk16;L_ShortenEventsType;L_SelecttheShortenEventsType,Select the Shorten Even
 outlk16;L_ShortenEventsType,Shorten appointments and meetings,NA,NA
 outlk16;L_ShowContactslinkingcontrolsonallForms,Show Contacts linking controls on all Forms,software\policies\microsoft\office\16.0\outlook\preferences,showcontactfieldobsolete
 outlk16;L_ShowOLEPackageObj,Display OLE package objects,software\policies\microsoft\office\16.0\outlook\security,showolepackageobj
+outlk16;L_ShowOutlookLoopComponentsForSupportedApps,Show Outlook Loop components for supported apps.,software\policies\microsoft\office\16.0\outlook\options\mail,showoutlookloopcomponentsforsupportedapps
 outlk16;L_Signallemailmessages,Sign all e-mail messages,software\policies\microsoft\office\16.0\outlook\security,alwayssign
 outlk16;L_SignatureWarning,Signature Warning,NA,NA
 outlk16;L_SignatureWarning;L_signaturewarning30,Signature Warning,software\policies\microsoft\office\16.0\outlook\security,warnaboutinvalid
@@ -3067,6 +3255,7 @@ outlk16;L_SimpleMapiOpenMessage,Configure Simple MAPI message opening prompt,NA,
 outlk16;L_SimpleMapiOpenMessage;L_SimpleMapi_Setting,Guard Behavior:,software\policies\microsoft\office\16.0\outlook\security,promptsimplemapiopenmessage
 outlk16;L_SimpleMapiSend,Configure Simple MAPI sending prompt,NA,NA
 outlk16;L_SimpleMapiSend;L_SimpleMapi_Setting,Guard Behavior:,software\policies\microsoft\office\16.0\outlook\security,promptsimplemapisend
+outlk16;L_SMimeDisableDataUpload,Block processing of S/MIME encrypted messages by certain connected experiences,software\policies\microsoft\office\16.0\common\privacy,smimedisabledataupload
 outlk16;L_SMIMEinteroperabilitywithexternalclients;L_BehaviorforhandlingSMIMEmessages,Behavior for handling S/MIME messages:,software\policies\microsoft\office\16.0\outlook\security,externalsmime
 outlk16;L_SMIMEinteroperabilitywithexternalclients,S/MIME interoperability with external clients:,NA,NA
 outlk16;L_SMIMEreceiptrequests;L_HandlemessageswithSMIMEreceiptrequestsinthefollowingmanner,Handle messages with S/MIME receipt requests in the following manner:,software\policies\microsoft\office\16.0\outlook\security,respondtoreceiptrequests
@@ -3171,6 +3360,7 @@ outlk16;L_Workinghours,Working hours,NA,NA
 outlk16;L_Workweek;L_Lengthofworkweek,Length of work week:,software\policies\microsoft\office\16.0\outlook\options\calendar,workday
 outlk16;L_Workweek,Work week,NA,NA
 outlooknew;L_ContactSupport,Allow access to Contact Support in the new Outlook,software\policies\microsoft\office\16.0\outlook\options\general,contactsupport
+outlooknew;L_OutlookForWindowsPrimaryAccountMustMatchDeviceSignInAccount,Require the Primary Account to match the Windows signed-in account,software\policies\microsoft\office\16.0\outlook,outlookforwindowsprimaryaccountmustmatchdevicesigninaccount
 ppt16;L_AllowAutoExtendForDesktop,Allow PowerPoint to also automatically extend the display when presenting on a desktop,software\policies\microsoft\office\16.0\powerpoint\options,allowautoextendfordesktop
 ppt16;L_AllowSelectionFloaties,Show Mini Toolbar on selection,software\policies\microsoft\office\16.0\common\toolbars\powerpoint,allowselectionfloaties
 ppt16;L_AllowTrustedLocationsOnTheNetwork,Allow Trusted Locations on the network,software\policies\microsoft\office\16.0\powerpoint\security\trusted locations,allownetworklocations
@@ -3240,6 +3430,7 @@ ppt16;L_EnableRecordingRibbonTab,Turn on recording ribbon tab,software\policies\
 ppt16;L_Endwithblackslide,End with black slide,software\policies\microsoft\office\16.0\powerpoint\options,ssendonblankslide
 ppt16;L_externalConverterAsDefaultForFileExtensionPPT,Turn on an external converter as the default for a file extension,NA,NA
 ppt16;L_externalConverterAsDefaultForFileExtensionPPT;L_listOfExternalConvertersPPT,List of external file format converters to customize,software\policies\microsoft\office\16.0\powerpoint\presentation converters\defaults,
+ppt16;L_ForceAutoAdvanceInitiallyOff,Turn off automatically advancing slides (Use Timings) initially,software\policies\microsoft\office\16.0\powerpoint\options,forceautoadvanceinitiallyoff
 ppt16;L_GraphicFilters,Graphic Filters,NA,NA
 ppt16;L_GraphicFilters;L_GraphicFiltersDropID,File block setting:,software\policies\microsoft\office\16.0\powerpoint\security\fileblock,graphicfilters
 ppt16;L_Hidebuiltintablestyles,Hide built in table styles,software\policies\microsoft\office\16.0\powerpoint\options,hidebuiltintablestyles
@@ -3255,6 +3446,9 @@ ppt16;L_Maximumnumberofundos,Maximum number of undos,NA,NA
 ppt16;L_Maximumnumberofundos;L_maximumnumberofundos2,Maximum number of undos,software\policies\microsoft\office\16.0\powerpoint\options,number of undos
 ppt16;L_MicrosoftOfficeOpenXMLConvertersForPowerPoint,Microsoft Office Open XML converters for PowerPoint,NA,NA
 ppt16;L_MicrosoftOfficeOpenXMLConvertersForPowerPoint;L_MicrosoftOfficeOpenXMLConvertersForPowerPointDropID,File block setting:,software\policies\microsoft\office\16.0\powerpoint\security\fileblock,ooxmlconverters
+ppt16;L_OfficeFileBlockIncludeTrustedFiles,File Block includes trusted files,software\policies\microsoft\office\16.0\powerpoint\security\fileblock,IncludeTrustedFiles
+ppt16;L_OLEActions;L_Empty,OLE Active Content,software\policies\microsoft\office\16.0\powerpoint\security,enableoleactions
+ppt16;L_OLEActions,OLE Active Content,NA,NA
 ppt16;L_OpenDocumentPresentationFiles,OpenDocument Presentation files,NA,NA
 ppt16;L_OpenDocumentPresentationFiles;L_OpenDocumentPresentationFilesDropID,File block setting:,software\policies\microsoft\office\16.0\powerpoint\security\fileblock,opendocumentpresentation
 ppt16;L_OpenFilesOnLocalIntranetUNCInProtectedView,Open files on local Intranet UNC in Protected View,software\policies\microsoft\office\16.0\powerpoint\security\protectedview,disableintranetcheck
@@ -3460,6 +3654,7 @@ ppt16;L_WindowsinTaskbar,Show all windows in the Taskbar,software\policies\micro
 proj16;L_AllowTrustedLocationsOnTheNetwork,Allow Trusted Locations on the network,software\policies\microsoft\office\16.0\ms project\security\trusted locations,allownetworklocations
 proj16;L_AutomaticallyAddNewItemsToTheGlobalProject,Automatically add new items to the global project,software\policies\microsoft\office\16.0\ms project\options\view,automatically add items to the global
 proj16;L_BlockAllUnmanagedAddins,Block all unmanaged add-ins,software\policies\microsoft\office\16.0\ms project\resiliency,restricttolist
+proj16;L_BlockMacroExecutionFromInternet,Block macros from running in Office files from the internet,software\policies\microsoft\office\16.0\ms project\security,blockcontentexecutionfrominternet
 proj16;L_CacheLocation,Local Project Cache Location,NA,NA
 proj16;L_CacheLocation;L_cachelocation37,Local Project Cache Location,software\policies\microsoft\office\16.0\ms project\settings,cachelocation
 proj16;L_CacheSizePerProfile,Local Project Cache Size Limit in MB,NA,NA
@@ -3762,6 +3957,7 @@ pub16;L_Disablecommandbarbuttonsandmenuitems;L_ToolsMacroMacros,Developer tab | 
 pub16;L_Disablecommandbarbuttonsandmenuitems;L_ToolsMacroSecurity,Developer tab | Code | Macro Security,software\policies\microsoft\office\16.0\publisher\disabledcmdbaritemscheckboxes,toolsmacrosecurity
 pub16;L_Disablecommandbarbuttonsandmenuitems;L_ToolsMacroVisualBasicEditor,Developer tab | Code | Visual Basic,software\policies\microsoft\office\16.0\publisher\disabledcmdbaritemscheckboxes,toolsmacrovisualbasiceditor
 pub16;L_DisableOfficeStartPublisher,Disable the Office Start screen for Publisher,software\policies\microsoft\office\16.0\publisher\preferences,disableboottoofficestart
+pub16;L_DisablePublisher,Disable Publisher,software\policies\microsoft\office\16.0\publisher,disablelaunch
 pub16;L_DisableTrustBarNotificationforunsigned,Disable Trust Bar Notification for unsigned application add-ins and block them,software\policies\microsoft\office\16.0\publisher\security,notbpromptunsignedaddin
 pub16;L_DisplayDeveloperTab,Display Developer tab in the Ribbon,software\policies\microsoft\office\16.0\publisher\preferences,developertools
 pub16;L_Enableincrementalpublishtoweb,Enable incremental publish to Web,software\policies\microsoft\office\16.0\publisher\internet,incrementalupload
@@ -3798,9 +3994,9 @@ pub16;L_VBAWarningsPolicy;L_VBAOnlyAllowLMTrustedPublisherStr,Block certificates
 pub16;L_VBAWarningsPolicy,VBA Macro Notification Settings,NA,NA
 pub16;L_Whenformattingautomaticallyformatentireword,When formatting  automatically format entire word,software\policies\microsoft\office\16.0\publisher\preferences,autowordformat
 pub16;L_Whenselectingautomaticallyselectentireword,When selecting  automatically select entire word,software\policies\microsoft\office\16.0\publisher\preferences,autowordsel
+teams16;L_DeviceStoreBrowsePurchase,Users can purchase devices in the Teams device store,NA,NA
 teams16;L_DeviceStoreBrowsePurchase;L_DeviceStoreBrowse,Allow users to browse,software\policies\microsoft\office\16.0\teams\devicestore,isAllowedToBrowse
 teams16;L_DeviceStoreBrowsePurchase;L_DeviceStorePurchase,Allow users to purchase,software\policies\microsoft\office\16.0\teams\devicestore,isAllowedToPurchase
-teams16;L_DeviceStoreBrowsePurchase,Users can purchase devices in the Teams device store,NA,NA
 teams16;String_Teams_SignInRestriction_Policy;RestrictTeamsSignInToAccountsFromTenantList,Tenant IDs:,software\policies\microsoft\office\16.0\teams,restrictteamssignintoaccountsfromtenantlist
 teams16;String_Teams_SignInRestriction_Policy,Restrict sign in to Teams to accounts in specific tenants,NA,NA
 teams16;Teams_PreventFirstLaunchAfterInstall_Policy,Prevent Microsoft Teams from starting automatically after installation,software\policies\microsoft\office\16.0\teams,preventfirstlaunchafterinstall
@@ -3859,6 +4055,7 @@ visio16;L_ListOfManagedAddins;L_ListOfManagedAddins2,List of managed add-ins,sof
 visio16;L_LoadMicrosoftVisualBasicforApplicationsprojectsf,Load Microsoft Visual Basic for Applications projects from text,software\policies\microsoft\office\16.0\visio\application,loadvbaprojectsfromtext
 visio16;L_MyShapes,My Shapes,NA,NA
 visio16;L_MyShapes;L_MyShapescolon,My Shapes:,software\policies\microsoft\office\16.0\visio\application,myshapespath
+visio16;L_OfficeFileBlockIncludeTrustedFiles,File Block includes trusted files,software\policies\microsoft\office\16.0\visio\security\fileblock,IncludeTrustedFiles
 visio16;L_OpeneachShapeSheetinthesamewindow,Open each ShapeSheet in the same window,software\policies\microsoft\office\16.0\visio\document,recycleshapesheetwindow
 visio16;L_Openresultsnewwindow,Open results new window,software\policies\microsoft\office\16.0\visio\application,msoridcuvisiobfsrecycle
 visio16;L_Ordinalswithsuperscript,Ordinals with superscript,software\policies\microsoft\office\16.0\visio\autoformat as you type,ordinals
@@ -4230,6 +4427,7 @@ word16;L_Movement;L_movement4,Cursor movement,software\policies\microsoft\office
 word16;L_Numeral,Numeral,NA,NA
 word16;L_Numeral;L_numeral16,Numeral,software\policies\microsoft\office\16.0\word\options,numform
 word16;L_Objectanchors,Object anchors,software\policies\microsoft\office\16.0\word\options,showanchors
+word16;L_OfficeFileBlockIncludeTrustedFiles,File Block includes trusted files,software\policies\microsoft\office\16.0\word\security\fileblock,IncludeTrustedFiles
 word16;L_OfficeOpenXMLConvertersForWord,Office Open XML converters for Word,NA,NA
 word16;L_OfficeOpenXMLConvertersForWord;L_OfficeOpenXMLConvertersForWordDropID,File block setting:,software\policies\microsoft\office\16.0\word\security\fileblock,ooxmlconverters
 word16;L_OnlineVideos,Allow Online Videos to play within Word,software\policies\microsoft\office\16.0\word\options,onlinevideo
@@ -4287,6 +4485,7 @@ word16;L_SetNumberOfPlacesInTheRecentPlacesList,Number of folders in the Recent 
 word16;L_SetNumberOfPlacesInTheRecentPlacesList;L_SetNumberOfPlacesInTheRecentPlacesListSpinID,Number of folders in the Recent Folders list,software\policies\microsoft\office\16.0\word\place mru,max display
 word16;L_SetParametersForCNGContext,Set parameters for CNG context,NA,NA
 word16;L_SetParametersForCNGContext;L_SetParametersForCNGContextID,Parameters,software\policies\microsoft\office\16.0\word\security\crypto,context
+word16;L_ShowAgreementsRibbon,Show Agreements Ribbon,software\policies\microsoft\office\16.0\word\options,showagreementsribbon
 word16;L_ShowPeople,Show pictures in comments,software\policies\microsoft\office\16.0\word\options,revmodeshowpeople
 word16;L_ShowpixelsforHTMLfeatures,Show pixels for HTML features,software\policies\microsoft\office\16.0\word\options,pixelsindialogs
 word16;L_Showreadabilitystatistics,Show readability statistics,software\policies\microsoft\office\16.0\word\options,showstats
