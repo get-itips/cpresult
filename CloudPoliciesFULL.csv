@@ -1,4 +1,5 @@
 Id,Name,registryKeyPath,registrySubPath
+Id,Name,registryKeyPath,registrySubPath
 AcceptPowerpointDesignerPrivacy,Accept PowerPoint Designer privacy,Software/Microsoft/Office/16.0/PowerPoint/Options/SuggestionsPrivacyDialogLastShow,
 AllowVisualBasicToBindToSystem,Allow Use of system() from Visual Basic,NA,NA
 AlternateRuntimeLocaleIdentifierInExcel,East Asian Language selection for Excel,NA,NA
@@ -281,8 +282,9 @@ access16;L_VBAWarningsPolicy;L_VBADigSigTrustedPublishersStr,Require macros to b
 access16;L_VBAWarningsPolicy;L_VBAOnlyAllowDigSigWithCodeSigningEKUStr,Require Extended Key Usage (EKU) for certificates from trusted publishers,software\policies\microsoft\office\16.0\access\security,vbarequiredigsigwithcodesigningeku
 access16;L_VBAWarningsPolicy;L_VBAOnlyAllowLMTrustedPublisherStr,Block certificates from trusted publishers that are only installed in the current user certificate store,software\policies\microsoft\office\16.0\access\security,vbarequirelmtrustedpublisher
 access16;L_VBAWarningsPolicy,VBA Macro Notification Settings,NA,NA
+clipchamp;L_DisableAiVideoProjectCreation,Turn off Clipchamp AI video project,software\policies\microsoft\office\16.0\common\clipchamp,DisableAiVideoProjectCreation
 clipchamp;L_DisableClipChampAITextToSpeech,Disable AI text to speech​ in Clipchamp,software\policies\microsoft\office\16.0\common\clipchamp,DisableClipChampAITextToSpeech
-clipchamp;L_DisableClipChampAITranscriptGeneration,Disable AI transcription generation (subtitles/captions) in Clipchamp and Microsoft Stream,software\policies\microsoft\office\16.0\common\clipchamp,DisableClipChampAITranscriptGeneration
+clipchamp;L_DisableClipChampAITranscriptGeneration,Disable AI transcription generation (subtitles/captions) in Clipchamp video-editor,software\policies\microsoft\office\16.0\common\clipchamp,DisableClipChampAITranscriptGeneration
 clipchamp;L_DisableClipChampAudioRecording,Disable audio recording in Clipchamp and Microsoft Stream,software\policies\microsoft\office\16.0\common\clipchamp,DisableClipChampAudioRecording
 clipchamp;L_DisableClipChampPremiumUpgrade,Disable the ability for users to upgrade to Clipchamp Premium​,software\policies\microsoft\office\16.0\common\clipchamp,DisableClipChampPremiumUpgrade
 clipchamp;L_DisableClipChampScreenRecording,Disable screen recording in Clipchamp and Microsoft Stream,software\policies\microsoft\office\16.0\common\clipchamp,DisableClipChampScreenRecording
@@ -306,6 +308,7 @@ excel16;L_AutoRecovertime,AutoRecover time,NA,NA
 excel16;L_AutoRecovertime;L_SaveAutoRecoverinfoevery,Save AutoRecover info every (minutes):,software\policies\microsoft\office\16.0\excel\options,autorecovertime
 excel16;L_BackgroundAccessibilityCheckerInformation,Check for accessibility issues while editing,software\policies\microsoft\office\16.0\excel\options,enableaccchecker
 excel16;L_BlockAllUnmanagedAddins,Block all unmanaged add-ins,software\policies\microsoft\office\16.0\excel\resiliency,restricttolist
+excel16;L_BlockInsecureProtocolsInExcelWorksheetFunctions,Block Insecure Protocols in Excel Worksheet Functions,software\policies\microsoft\office\16.0\excel\security,blockinsecureprotocolworksheetfunctions
 excel16;L_BlockMacroExecutionFromInternet,Block macros from running in Office files from the internet,software\policies\microsoft\office\16.0\excel\security,blockcontentexecutionfrominternet
 excel16;L_BlockXLLFromInternet,Block Excel XLL Add-ins that come from an untrusted source,NA,NA
 excel16;L_BlockXLLFromInternet;L_BlockXLLFromInternetEnum,Block Excel XLL Add-ins that come from an untrusted source,software\policies\microsoft\office\16.0\excel\security,blockxllfrominternet
@@ -409,7 +412,7 @@ excel16;L_ExcelAddInFiles,Excel add-in files,NA,NA
 excel16;L_ExcelAddInFiles;L_ExcelAddInFilesDropID,File block setting:,software\policies\microsoft\office\16.0\excel\security\fileblock,xllfiles
 excel16;L_ExcelDisableOfficeScripts,Disable Office Scripts in Excel for Windows Desktop,software\policies\microsoft\office\16.0\excel\options,disableofficescripts
 excel16;L_ExcelFileBlockExternalLinks,File Block includes external link files,software\policies\microsoft\office\16.0\excel\security\fileblock,fileblockexternallinks
-excel16;L_ExcelForceSupportForUnicodeSurrogates,Force support for Unicode surrogates in Excel 2021 and Excel 2024,software\policies\microsoft\office\16.0\excel\options,msoridforcesupportforunicodesurrogates
+excel16;L_ExcelForceSupportForUnicodeSurrogates,Force support for Unicode surrogates in Excel 2021 and Excel 2024,software\policies\microsoft\office\16.0\excel\options,forcesupportforunicodesurrogates
 excel16;L_ExtendDataRangeFormatsAndFormulas,Extend data range formats and formulas,software\policies\microsoft\office\16.0\excel\options,extendlist
 excel16;L_Font,Default Font,NA,NA
 excel16;L_Font;L_NameSize,Name  Size,software\policies\microsoft\office\16.0\excel\options,font
@@ -712,6 +715,8 @@ office16;L_AddonManagement;L_visioexe19,visio.exe,software\microsoft\internet ex
 office16;L_AddonManagement;L_winprojexe20,winproj.exe,software\microsoft\internet explorer\main\featurecontrol\feature_addon_management,winproj.exe
 office16;L_AddonManagement;L_winwordexe21,winword.exe,software\microsoft\internet explorer\main\featurecontrol\feature_addon_management,winword.exe
 office16;L_Afrikaans,Afrikaans,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,af-za
+office16;L_AgeOutPolicyIncludingFilesPendingUpload,Age out documents older than n days Including documents with pending uploads,NA,NA
+office16;L_AgeOutPolicyIncludingFilesPendingUpload;L_AgeOutPolicyIncludingFilesPendingUploadDecimal,Number of days,software\policies\microsoft\office\16.0\common\fileio,ageoutpolicyincludingfilespendingupload
 office16;L_AgeOutPolicyLocalVersioning,Number of days to keep local document versions in the local cache,NA,NA
 office16;L_AgeOutPolicyLocalVersioning;L_AgeOutPolicyLocalVersioningDecimal,Number of days,software\policies\microsoft\office\16.0\common\fileio,ageoutpolicylocalversioning
 office16;L_AgeOutPolicy,Age out documents older than n days,NA,NA
@@ -719,6 +724,8 @@ office16;L_AgeOutPolicy;L_AgeOutPolicyDecimal,Number of days,software\policies\m
 office16;L_AIPException,Use the Azure Information Protection add-in for sensitivity labeling,software\policies\microsoft\office\16.0\common\security\labels,aipexception
 office16;L_Albanian,Albanian,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,sq-al
 office16;L_AllowaccenteduppercaseinFrench,Allow accented uppercase in French,software\policies\microsoft\shared tools\proofing tools\1.0\office,enforceaccenteduppercase
+office16;L_AllowedCOMAddins,List of allowed COM/VSTO add-ins registered in HKCU,NA,NA
+office16;L_AllowedCOMAddins;L_AllowedCOMAddinsList,Allowed COM/VSTO Add-ins:,software\policies\microsoft\office\16.0\common\security\allowedcomaddins,
 office16;L_AllowedExtensions,Allow file extensions for OLE embedding,NA,NA
 office16;L_AllowedExtensions;L_allowedextensionsole,File extensions:,software\policies\microsoft\office\common\security,allowedextensions
 office16;L_AllowedHateContentGeneralMachine,Allowed severity of hate content in general for the computer.,NA,NA
@@ -850,6 +857,7 @@ office16;L_AllowedViolentContentSpecificTextToTableMachine;L_AllowedViolentConte
 office16;L_AllowedViolentContentSpecificTextToTableUser,Allowed severity of violent content to and from the Text to Table scenario for the user.,NA,NA
 office16;L_AllowedViolentContentSpecificTextToTableUser;L_AllowedViolentContentSpecificTextToTableUserDecimal,Allowed severity of violent content,software\policies\microsoft\office\16.0\common\ai\contentsafety\specific\texttotable,allowedviolentcontent
 office16;L_AllowFileSynchronizationViaSOAPOnlyOnDomainNetworks,Allow file synchronization via SOAP over HTTP only on domain networks,software\policies\microsoft\office\16.0\common\fileio,synconlyondomainnetwork
+office16;L_AllowFrontierEnrollment,Allow users to enroll in Copilot Frontier,software\policies\microsoft\office\16.0\common\copilot,AllowFrontierEnrollment
 office16;L_AllowLinkedInFeatures,Show LinkedIn features in Office applications,software\policies\microsoft\office\16.0\common,linkedin
 office16;L_Allowmixofpolicyanduserlocations,Allow mix of policy and user locations,software\policies\microsoft\office\16.0\common\security\trusted locations,allow user locations
 office16;L_AllowNonAdminUserInstallLAPs,Allow users who aren’t admins to install language accessory packs,software\policies\microsoft\office\16.0\common\languageresources,allownonadminuserinstalllanguages
@@ -929,6 +937,7 @@ office16;L_Bindtoobject;L_winwordexe147,winword.exe,software\microsoft\internet 
 office16;L_BlockedExtensions,Block additional file extensions for OLE embedding,NA,NA
 office16;L_BlockedExtensions;L_blockedextensionsole,File extensions:,software\policies\microsoft\office\common\security,blockedextensions
 office16;L_BlockInsecureProtocols,Block Insecure Protocols,software\policies\microsoft\office\16.0\common\fileio,blockinsecureprotocols
+office16;L_BlockMOTWMacroInTrustedOrSigned,Block all internet macros (ignore trusted locations or publishers),software\policies\microsoft\office\16.0\common\security,blockmotwmacrointrustedorsigned
 office16;L_BlockOLEGraph,Block OLE Graph,software\policies\microsoft\office\16.0\common\security,blockolegraph
 office16;L_BlockopeningofprereleaseExcel,Block opening of pre-release versions of file formats new to Excel 2016 through the Compatibility Pack for Office 2016 and Excel 2016 Converter,software\policies\microsoft\office\16.0\excel\security\fileblock,excel12betafilesfromconverters
 office16;L_BlockopeningofprereleasePPT,Block opening of pre-release versions of file formats new to PowerPoint 2016 through the Compatibility Pack for Office 2016 and PowerPoint 2016 Converter,software\policies\microsoft\office\16.0\powerpoint\security\fileblock,powerpoint12betafilesfromconverters
@@ -948,6 +957,7 @@ office16;L_Blockpopups;L_spdesignexe191,spDesign.exe,software\microsoft\internet
 office16;L_Blockpopups;L_visioexe187,visio.exe,software\microsoft\internet explorer\main\featurecontrol\feature_weboc_popupmanagement,visio.exe
 office16;L_Blockpopups;L_winprojexe188,winproj.exe,software\microsoft\internet explorer\main\featurecontrol\feature_weboc_popupmanagement,winproj.exe
 office16;L_Blockpopups;L_winwordexe189,winword.exe,software\microsoft\internet explorer\main\featurecontrol\feature_weboc_popupmanagement,winword.exe
+office16;L_BlockVBAMacroTrustedDocument,Turn off Trusted Documents for VBA macros,software\policies\microsoft\office\16.0\common\security,blockvbamacrotrusteddocument
 office16;L_BlockWecFallback,Restrict Apps from FPRPC Fallback,software\policies\microsoft\office\16.0\common\fileio,blockwecfallback
 office16;L_BosnianCyrillicBosniaandHerzegovina,Bosnian (Cyrillic  Bosnia and Herzegovina),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,bs-cyrl-ba
 office16;L_BosnianLatinBosniaandHerzegovina,Bosnian (Latin  Bosnia and Herzegovina),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,bs-latn-ba
@@ -991,6 +1001,7 @@ office16;L_ChineseSingapore,Chinese (Singapore),software\policies\microsoft\offi
 office16;L_ChineseTaiwan,Chinese (Taiwan),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,zh-tw
 office16;L_CleanupInterval,Set the cleanup interval,NA,NA
 office16;L_CleanupInterval;L_CleanupIntervalDecimal,Cleanup interval (minutes),software\policies\microsoft\office\16.0\common\business data\synchronization,cleanup interval
+office16;L_CloudOnlySaving,Restrict saving on non-Cloud locations,software\policies\microsoft\office\16.0\common\fileio,enablecloudonlysaveasmode
 office16;L_Combineauxverbadj,Combine aux verb/adj.,software\policies\microsoft\office\16.0\word\options\vpref,fsplauxfind_560_1
 office16;L_CompanionAppAutoStart,Prevent Microsoft 365 companions from starting automatically,NA,NA
 office16;L_CompanionAppAutoStart;L_CalendarCompanionAppAutoStart,Calendar Companion,software\policies\microsoft\office\16.0\common\companions,CalendarCompanionAppAutoStart
@@ -1143,18 +1154,54 @@ office16;L_ConsistentMimeHandling;L_winprojexe48,winproj.exe,software\microsoft\
 office16;L_ConsistentMimeHandling;L_winwordexe49,winword.exe,software\microsoft\internet explorer\main\featurecontrol\feature_mime_handling,winword.exe
 office16;L_ControlBlogging,Control Blogging,NA,NA
 office16;L_ControlBlogging;L_empty503,Control Blogging,software\policies\microsoft\office\common\blog,disableblog
+office16;L_ControlCompliantWebIQ,Enable Microsoft Copilot compliant web search,software\policies\microsoft\office\16.0\common\copilot,ControlCompliantWebIQ
 office16;L_ControlCopilotAutoOpen,Auto-open Copilot pane in Microsoft 365 Apps,software\policies\microsoft\office\16.0\common\copilot,ControlCopilotAutoOpen
 office16;L_ConversionServicesoptions,Conversion Service Options,NA,NA
 office16;L_ConversionServicesoptions;L_ConversionServicesoptions236,Conversion Service options,software\policies\microsoft\office\16.0\common\internet,useconversionservices
 office16;L_CopilotAdmin,Control Admin Copilot availability in Microsoft 365 Admin Center,software\policies\microsoft\office\16.0\common\copilot,CopilotAdmin
+office16;L_CopilotAIDisclaimer,Copilot AI Disclaimer,NA,NA
+office16;L_CopilotAIDisclaimer;L_CopilotAIDisclaimer,Choose how to display the AI disclaimer: ,software\policies\microsoft\office\16.0\common\copilot,CopilotAIDisclaimer
+office16;L_CopilotAIDisclaimer;L_CopilotAIDisclaimerDisplayOnHomePage,Display AI disclaimer on home page: ,software\policies\microsoft\office\16.0\common\copilot,CopilotAIDisclaimerDisplayOnHomePage
+office16;L_CopilotAIDisclaimer;L_CopilotAIDisclaimerDisplayOption,Choose AI disclaimer display behavior: ,software\policies\microsoft\office\16.0\common\copilot,CopilotAIDisclaimerDisplayOption
+office16;L_CopilotAIDisclaimer;L_CopilotAIDisclaimerURL,Provide a URL that is linked to your AI disclaimer: ,software\policies\microsoft\office\16.0\common\copilot,CopilotAIDisclaimerURL
+office16;L_CopilotAIWatermark,Include a watermark when content from Microsoft 365 is generated or altered by AI,software\policies\microsoft\office\16.0\common\copilot,CopilotAIWatermark
+office16;L_CopilotBlockAccessToCameraSharing,Prevent users from sharing their camera with Microsoft 365 Copilot,software\policies\microsoft\office\16.0\common\copilot,CopilotBlockAccessToCameraSharing
+office16;L_CopilotBlockAccessToOpenFiles,Block Copilot Access to Open Content,software\policies\microsoft\office\16.0\common\copilot,CopilotBlockAccessToOpenFiles
+office16;L_CopilotBlockAccessToScreenSharing,Prevent users from sharing their screen with Microsoft 365 Copilot,software\policies\microsoft\office\16.0\common\copilot,CopilotBlockAccessToScreenSharing
+office16;L_CopilotBlockBrowsingFRE,Disable first-time browsing experience for web links,software\policies\microsoft\office\16.0\common\copilot,CopilotBlockBrowsingFRE
+office16;L_CopilotBlockVideoGeneration,DEPRECATED - Copilot Video Generation,software\policies\microsoft\office\16.0\common\copilot,CopilotBlockVideoGeneration
+office16;L_CopilotChatSidePane,Allow access to Copilot Chat in Microsoft 365 apps,software\policies\microsoft\office\16.0\common\copilot,CopilotChatSidePane
+office16;L_CopilotCodeAutoApproveEnabled,Enable auto-approve in the Copilot Code Tab,software\policies\microsoft\office\16.0\common\copilot,CopilotCodeAutoApproveEnabled
+office16;L_CopilotCodeExecutionLocation,Copilot Code execution location,NA,NA
+office16;L_CopilotCodeExecutionLocation;L_CopilotCodeExecutionLocation,Execution location:,software\policies\microsoft\office\16.0\common\copilot,CopilotCodeExecutionLocation
+office16;L_CopilotCodeGithubConnectionOptions,Manage GitHub connection options in Copilot Code,NA,NA
+office16;L_CopilotCodeGithubConnectionOptions;L_CopilotCodeAllowedGithubConnections,Allowed GitHub Enterprise Cloud (GHEC) connections: ,software\policies\microsoft\office\16.0\common\copilot,CopilotCodeAllowedGithubConnections
+office16;L_CopilotCodeGithubConnectionOptions;L_CopilotCodeAllowedGithubEnterprises,Allowed Github.com enterprise names: ,software\policies\microsoft\office\16.0\common\copilot,CopilotCodeAllowedGithubEnterprises
+office16;L_CopilotCodeGithubConnectionOptions;L_CopilotCodeGithubConnectionOptions,GitHub connection options:,software\policies\microsoft\office\16.0\common\copilot,CopilotCodeGithubConnectionOptions
+office16;L_CopilotCodeGithubEnabled,Allow users to connect a GitHub account in the Copilot Code Tab,software\policies\microsoft\office\16.0\common\copilot,CopilotCodeGithubEnabled
+office16;L_CopilotCodeTabEnabled,DEPRECATED - Code in the Copilot app,software\policies\microsoft\office\16.0\common\copilot,CopilotCodeTabEnabled
+office16;L_CopilotCodeWorkIQEnabled,Allow Copilot Code to use organizational data in Code,software\policies\microsoft\office\16.0\common\copilot,CopilotCodeWorkIQEnabled
+office16;L_CopilotComplianceGuidance,Configure Copilot Compliance guidance,NA,NA
+office16;L_CopilotComplianceGuidance;L_CopilotComplianceGuidanceOptions,List of compliance documents:,software\policies\microsoft\office\16.0\common\copilotcomplianceguidance,
+office16;L_CopilotDeviceBlockedFilePaths,Block Folders for Copilot Device Access,NA,NA
+office16;L_CopilotDeviceBlockedFilePaths;L_CopilotDeviceBlockedFilePathsList,Blocked folders:,software\policies\microsoft\office\16.0\common\copilot\blockedfilepaths,
+office16;L_CopilotDeviceCodeTabPreInstall,Preinstall Copilot Code Tab Components,software\policies\microsoft\office\16.0\common,copilotdevicecodetabpreinstall
+office16;L_CopilotDeviceFileUploadEnabled,Allow Copilot to Upload Local Files to Microsoft 365,software\policies\microsoft\office\16.0\common,copilotdevicefileuploadenabled
+office16;L_CopilotDeviceReadEnabled,Allow Copilot to Read Device Content and Information,software\policies\microsoft\office\16.0\common,copilotdevicereadenabled
+office16;L_CopilotDeviceSearchEnabled,Allow Copilot to Search Files on This Device,software\policies\microsoft\office\16.0\common,copilotdevicesearchenabled
+office16;L_CopilotDeviceWriteEnabled,Allow Copilot to Modify Files on This Device,software\policies\microsoft\office\16.0\common,copilotdevicewriteenabled
 office16;L_CopilotEngagedMode,Enable Engaged Mode on Copilot Responsible AI,software\policies\microsoft\office\16.0\common\copilot,CopilotEngagedMode
 office16;L_CopilotFileUpload,Allow file upload in Copilot,NA,NA
 office16;L_CopilotFileUpload;L_CopilotFileUploadOptions,Options,software\policies\microsoft\office\16.0\common\copilot,CopilotFileUpload
 office16;L_CopilotFrontier,Allow users to access Frontier features,software\policies\microsoft\office\16.0\common\copilot,CopilotFrontier
 office16;L_CopilotLimitedMode,Copilot Sentiment Response Control,software\policies\microsoft\office\16.0\common\copilot,CopilotLimitedMode
+office16;L_CopilotNotebooksLiveCapture,Capture in Copilot Notebooks on Desktop & Web,software\policies\microsoft\office\16.0\common\copilot,CopilotNotebooksLiveCapture
 office16;L_CopilotPinning,Pin Microsoft 365 Copilot Chat,software\policies\microsoft\office\16.0\common\copilot,CopilotPinning
+office16;L_CopilotRestrictMinorImages,Allow Copilot image generation and restrict image generations that include minors,software\policies\microsoft\office\16.0\common,CopilotRestrictMinorImages
+office16;L_CopilotSuggestions,Disable proactive suggestion and notifications in the Copilot app,software\policies\microsoft\office\16.0\common\copilot,CopilotSuggestions
 office16;L_CopilotWebSearch,Allow web search in Copilot,NA,NA
 office16;L_CopilotWebSearch;L_CopilotWebSearchOptions,Options,software\policies\microsoft\office\16.0\common\copilot,CopilotWebSearch
+office16;L_CopilotZeroQueryLogging,Enable Zero Query Logging for Copilot web searches,software\policies\microsoft\office\16.0\common\copilot,CopilotZeroQueryLogging
 office16;L_CorrectaccidentaluseofcAPSLOCKkey,Correct accidental use of cAPS LOCK key,software\policies\microsoft\office\16.0\common\autocorrect,togglecapslock
 office16;L_CorrectTWoINitialCApitals,Correct TWo INitial CApitals,software\policies\microsoft\office\16.0\common\autocorrect,correcttwoinitialcapitals
 office16;L_Corsican,Corsican,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,co-fr
@@ -1230,6 +1277,7 @@ office16;L_DisableFaxOverInternetfeature,Disable Internet Fax feature,software\p
 office16;L_DisablehyperlinkstowebtemplatesinFileNewandtaskpanes,Disable web templates in File | New and on the Office Start screen,software\policies\microsoft\office\16.0\common\general,disablehyperlinkstowebtemplates
 office16;L_DisableinclusionofdocumentpropertiesinPDFandXPSoutput,Disable inclusion of document properties in PDF and XPS output,software\policies\microsoft\office\16.0\common\fixedformat,disablefixedformatdocproperties
 office16;L_DisableInformationRightsManagementUserInterface,Turn off Information Rights Management user interface,software\policies\microsoft\office\16.0\common\drm,disable
+office16;L_DisableLastMileInAppMessaging,Disable Last-Mile In-App Messages,software\policies\microsoft\office\16.0\common\fileio,disablelastmileinappmessaging
 office16;L_DisableLinksOpenRight,Open Office file links in Office Online,software\policies\microsoft\office\16.0\common\internet,disablelinksopenright
 office16;L_DisableLocalFileProcessing,Prevent content that doesn’t use Microsoft 365 cloud storage from being sent to Microsoft for use by some connected experiences,software\policies\microsoft\office\16.0\common\privacy,disablelocalfileprocessing
 office16;L_DisableMovie,Disable First Run Movie,software\policies\microsoft\office\16.0\firstrun,disablemovie
@@ -1335,6 +1383,7 @@ office16;L_EnableCheckoutToDrafts,Save checked-out files to a local folder,softw
 office16;L_EnableColleagueImportOutlookAddintowork,Enable Colleague Import Outlook Add-in to work with Microsoft SharePoint Server,software\policies\microsoft\office\16.0\common\portal\colleagueimport,enabled
 office16;L_EnableCustomerExperienceImprovementProgram,Enable Customer Experience Improvement Program,software\policies\microsoft\office\16.0\common,qmenable
 office16;L_EnableLogging,Turn on telemetry data collection,software\policies\microsoft\office\16.0\osm,enablelogging
+office16;L_EnableMacroTrustLevel,Enable macro trust levels,software\policies\microsoft\office\16.0\common\security,enablemacrotrustlevel
 office16;L_EnableMinimizeVbaResigning,Enable Minimizing VBA Project Digital Signature Invalidation,software\policies\microsoft\vba\security,minimizevbaresign
 office16;L_EnableMSGraphasDefaultChart,Enable MS Graph as Default Chart Tool in PowerPoint and Word,software\policies\microsoft\office\16.0\common\charting,msgraphenable
 office16;L_EnableWorkflowsonMysite,Enable Workflows on My Site,software\policies\microsoft\office\common\workflow\home,usemysite
@@ -1565,13 +1614,11 @@ office16;L_Loop,Create and view Loop files in Microsoft apps that support Loop,s
 office16;L_LoopGroupWorkspaces,Require Existing Microsoft 365 Group for New Loop Workspaces,software\policies\microsoft\office\16.0\common\loop,LoopGroupWorkspaces
 office16;L_Loop_App,Create Loop workspaces in Loop,software\policies\microsoft\office\16.0\common\loop,Loop_App
 office16;L_Loop_App_Integrations,Allow external data integrations in Loop so users can import  view and edit items using Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrations
-office16;L_Loop_App_Integrations_DevOps,Allow Azure DevOps external data integration in Loop so users can import  view and edit items using Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsDevOps
-office16;L_Loop_App_Integrations_GitHub,Allow GitHub external data integration in Loop so users can import  view and edit items using Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsGitHub
-office16;L_Loop_App_Integrations_Jira,Allow Jira external data integration in Loop so users can import  view and edit items using Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsJira
 office16;L_Loop_App_Integrations_PowerAutomate,Set-up and execute automation rules in Loop via Power automate integration,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsPowerAutomate
 office16;L_Loop_App_Integrations_Trello,Allow Trello external data integration in Loop so users can import  view and edit items using Loop,software\policies\microsoft\office\16.0\common\loop,LoopAppIntegrationsTrello
 office16;L_Loop_app_SPOSiteStorage,Create and view Loop files in Loop using workspaces in SPO Sites,software\policies\microsoft\office\16.0\common\loop,LoopAppSPOSiteStorage
 office16;L_Loop_BizChatDocs,Create and view Copilot Pages and Copilot Notebooks,software\policies\microsoft\office\16.0\common\loop,LoopBizChatDocs
+office16;L_Loop_CodePreviewer,Enable code previews for AI-generated content in Microsoft 365 Copilot Chat and Copilot Pages,software\policies\microsoft\office\16.0\common\loop,LoopCodePreviewer
 office16;L_Loop_Figma,Unfurl Figma file & prototype links as embeds in Loop pages,software\policies\microsoft\office\16.0\common\loop,LoopFigma
 office16;L_Loop_Planner,View and edit Planner plans with the Planner Loop component,software\policies\microsoft\office\16.0\common\loop,LoopPlanner
 office16;L_Loop_Polls,View and Edit Polls with the Polls Loop component,software\policies\microsoft\office\16.0\common\loop,LoopPolls
@@ -1607,6 +1654,8 @@ office16;L_Maxnumberofdocumentsbeingreviewedusingsendforreview;L_empty385,Max nu
 office16;L_Maxnumberofdocumentsbeingreviewedusingsendforreview,Max number of documents being reviewed using 'send for review',NA,NA
 office16;L_MaxRetries,Set maximum number of retries when synchronization fails,NA,NA
 office16;L_MaxRetries;L_MaxRetriesDecimal,Maximum number of retries,software\policies\microsoft\office\16.0\common\business data\synchronization,max retries
+office16;L_MaxStaleDays,Maximum days of stale Office allowed before Windows Update remediation,NA,NA
+office16;L_MaxStaleDays;L_MaxStaleDaysID,Days:,software\policies\microsoft\office\16.0\common\officeupdate,maxstaledays
 office16;L_Menuanimations,Menu animations,NA,NA
 office16;L_Menuanimations;L_menuanimations209,Menu animations,software\policies\microsoft\office\16.0\common\toolbars,animation
 office16;L_MicrosoftOfficeshareddrawingcode,Disable Microsoft Office shared drawing code for blip caching,software\policies\microsoft\office\16.0\common\gelprefs,disableblipcaching
@@ -1642,6 +1691,7 @@ office16;L_MoreActionsURL;L_MoreActionsURLEditID,More Actions URL:,software\poli
 office16;L_MRUTemplateListLength,Most Recently Used Template List Length,NA,NA
 office16;L_MRUTemplateListLength;L_mrutemplatelistlength505,Most Recently Used Template List Length,software\policies\microsoft\office\16.0\common\general,filenewmrumaxitems
 office16;L_MultiAcctCopilot,Multiple account access to Copilot for work documents,software\policies\microsoft\office\16.0\common\privacy,MultiAcctCopilot
+office16;L_MultimodalCaptureOnMobile,Capture in Copilot Notebooks for mobile devices,software\policies\microsoft\office\16.0\common\copilot,multimodalCaptureOnMobile
 office16;L_NavigateURL;L_excelexe169,excel.exe,software\microsoft\internet explorer\main\featurecontrol\feature_validate_navigate_url,excel.exe
 office16;L_NavigateURL;L_exprwdexe178,exprwd.exe,software\microsoft\internet explorer\main\featurecontrol\feature_validate_navigate_url,exprwd.exe
 office16;L_NavigateURL;L_grooveexe168,groove.exe,software\microsoft\internet explorer\main\featurecontrol\feature_validate_navigate_url,groove.exe
@@ -1702,6 +1752,7 @@ office16;L_ObjectCachingProtection;L_winprojexe76,winproj.exe,software\microsoft
 office16;L_ObjectCachingProtection;L_winwordexe77,winword.exe,software\microsoft\internet explorer\main\featurecontrol\feature_object_caching,winword.exe
 office16;L_Occitan,Occitan,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,oc-fr
 office16;L_Odia,Odia,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,or-in
+office16;L_OfficeAgent,Allow users to use Office agent,software\policies\microsoft\office\16.0\common,OfficeAgent
 office16;L_OfficeDocumentCacheLocation,Office document cache location,NA,NA
 office16;L_OfficeDocumentCacheLocation;L_OfficeDocumentCacheLocationID,Office document cache location,software\policies\microsoft\office\16.0\common\fileio,msoridofficefilecachelocation
 office16;L_OfficeEnableAutoAltText,Automatically generate alternative text (alt text) for pictures,software\policies\microsoft\office\16.0\common\options,officeenableautoalttext
@@ -1865,6 +1916,7 @@ office16;L_RemoveOrganizationTab,Remove Organization tab,software\policies\micro
 office16;L_Replacetextasyoutype,Replace text as you type,software\policies\microsoft\office\16.0\common\autocorrect,replacetext
 office16;L_RequestedXAdESLevelForSignatureGeneration,Requested XAdES level for signature generation,NA,NA
 office16;L_RequestedXAdESLevelForSignatureGeneration;L_RequestedXAdESLevelForSignatureGenerationDropID,Requested XAdES level for signature generation,software\policies\microsoft\office\16.0\common\signatures,xadeslevel
+office16;L_RequireAlwaysOnMacroSig,Require trusted publisher signatures for macros that are always loaded,software\policies\microsoft\office\16.0\common\security,requirealwaysonmacrosig
 office16;L_RequireOCSPAtSignatureGenerationTime,Require OCSP at signature generation time,software\policies\microsoft\office\16.0\common\signatures,requireocsp
 office16;L_RestrictActiveXInstall;L_excelexe,excel.exe,software\microsoft\internet explorer\main\featurecontrol\feature_restrict_activexinstall,excel.exe
 office16;L_RestrictActiveXInstall;L_exprwdexe,exprwd.exe,software\microsoft\internet explorer\main\featurecontrol\feature_restrict_activexinstall,exprwd.exe
@@ -1881,6 +1933,9 @@ office16;L_RestrictActiveXInstall;L_spDesignexe,spDesign.exe,software\microsoft\
 office16;L_RestrictActiveXInstall;L_visioexe,visio.exe,software\microsoft\internet explorer\main\featurecontrol\feature_restrict_activexinstall,visio.exe
 office16;L_RestrictActiveXInstall;L_winprojexe,winproj.exe,software\microsoft\internet explorer\main\featurecontrol\feature_restrict_activexinstall,winproj.exe
 office16;L_RestrictActiveXInstall;L_winwordexe,winword.exe,software\microsoft\internet explorer\main\featurecontrol\feature_restrict_activexinstall,winword.exe
+office16;L_RestrictBrandKitCreation,Restrict brand kit creation,NA,NA
+office16;L_RestrictBrandKitCreation;L_RestrictBrandKitCreationGroup,Security group email address:,software\policies\microsoft\office\16.0\brandmanagers,restrictbrandkitcreation
+office16;L_RestrictCUCOMAddin,Block loading of COM/VSTO add-ins registered in HKCU,software\policies\microsoft\office\16.0\common\security,restrictcucomaddin
 office16;L_RestrictedModeTelemetry,Restricted Mode Telemetry,software\policies\microsoft\office\common\clienttelemetry,RestrictedModeTelemetry
 office16;L_RestrictFileDownload;L_excelexe1,excel.exe,software\microsoft\internet explorer\main\featurecontrol\feature_restrict_filedownload,excel.exe
 office16;L_RestrictFileDownload;L_exprwdexe10,exprwd.exe,software\microsoft\internet explorer\main\featurecontrol\feature_restrict_filedownload,exprwd.exe
@@ -2023,6 +2078,7 @@ office16;L_SharedComputerLicensing,Use shared computer activation,software\polic
 office16;L_Sharedthemespath,Shared themes path,NA,NA
 office16;L_Sharedthemespath;L_sharedthemespath330,Shared themes path,software\policies\microsoft\office\16.0\common\general,workgroupthemes
 office16;L_ShowAutoCorrectOptionsbuttons,Show AutoCorrect Options buttons,software\policies\microsoft\office\16.0\common\autocorrect,acoptions
+office16;L_ShownFileFmtPrompt,Show the File Format dialog,software\policies\microsoft\office\16.0\registration,shownfilefmtpromptpolicy
 office16;L_ShowPasteOptionsbuttons,Show Paste Options button when content is pasted,software\policies\microsoft\office\16.0\common\general,pasteoptions
 office16;L_ShowScreenTips,Show Screen Tips,NA,NA
 office16;L_ShowScreenTips;L_ShowScreenTipsDropID,Show Screen Tips,software\policies\microsoft\office\16.0\common\toolbars,screentipscheme
@@ -2096,6 +2152,8 @@ office16;L_Tatar,Tatar,software\policies\microsoft\office\16.0\common\languagere
 office16;L_Telugu,Telugu,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,te-in
 office16;L_TestSendFeedback,THIS IS A TEST POLICY,software\policies\microsoft\office\16.0\common\test,test
 office16;L_Thai,Thai,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,th-th
+office16;L_ThirdPartyStorageAllowList,Filter visible third‑party storage providers (Add-A-Place/Add-Storage-Account),NA,NA
+office16;L_ThirdPartyStorageAllowList;L_ThirdPartyStorageAllowList,List of storage providers:,software\policies\microsoft\office\16.0\common\storageproviderfilters,ThirdPartyStorageAllowList
 office16;L_TibetanPRC,Tibetan (China),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,bo-cn
 office16;L_TigrinyaEritrea,Tigrinya (Eritrea),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,ti-er
 office16;L_TigrinyaEthiopia,Tigrinya (Ethiopia),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,ti-et
@@ -2455,6 +2513,7 @@ office16;L_UyghurPRC,Uyghur (China),software\policies\microsoft\office\16.0\comm
 office16;L_UzbekCyrillic,Uzbek (Cyrillic),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,uz-cyrl-uz
 office16;L_UzbekLatin,Uzbek (Latin),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,uz-latn-uz
 office16;L_Valencian,Valencian,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,ca-es-valencia
+office16;L_VBADigSigChainTrustedPublishers,Allow root or intermediate certificates as VBA trusted publishers,software\policies\microsoft\office\16.0\common\security,vbadigsigchaintrustedpublishers
 office16;L_Venda,Venda,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,ve-za
 office16;L_Vietnamese,Vietnamese,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,vi-vn
 office16;L_ViewerMode,Use Viewer Mode,software\policies\microsoft\office\16.0\common\licensing,viewermode
@@ -2464,6 +2523,7 @@ office16;L_WebArchiveencoding,Web Archive encoding,NA,NA
 office16;L_WebArchiveencoding;L_webarchiveencoding402,Web Archive encoding,software\policies\microsoft\office\16.0\common\internet,allow8bitmime
 office16;L_WebFoldersManagingpairsofWebpagesandfolders,Web Folders: Managing pairs of Web pages and folders,NA,NA
 office16;L_WebFoldersManagingpairsofWebpagesandfolders;L_webfoldersmanagingpairsofwebpagesandfolders506,Web Folders: Managing pairs of Web pages and folders,software\policies\microsoft\windows\currentversion\explorer,nofilefolderconnection
+office16;L_WebGroundingOnMessaging,Show "Web is ON" message for Copilot web-grounded responses,software\policies\microsoft\office\16.0\common\copilot,WebGroundingOnMessaging
 office16;L_WebQuerydialoghomepage,Web Query dialog box home page,NA,NA
 office16;L_WebQuerydialoghomepage;L_webquerydialoghomepage333,Web Query dialog box home page,software\policies\microsoft\office\16.0\excel\options,webqueryhomepage
 office16;L_WebServiceDefaultSizeLimit,Set web service default return size limit,NA,NA
@@ -2591,6 +2651,16 @@ office16;L_Workgroupbuildingblockspath;L_Path2,Path:,software\policies\microsoft
 office16;L_Workgroupbuildingblockspath,Workgroup building blocks path,NA,NA
 office16;L_Workgrouptemplatespath,Workgroup templates path,NA,NA
 office16;L_Workgrouptemplatespath;L_workgrouptemplatespath329,Workgroup templates path,software\policies\microsoft\office\16.0\common\general,sharedtemplates
+office16;L_WritingAssistantAdminBlockedApps,Apps blocked by Writing Assistance admin policy,NA,NA
+office16;L_WritingAssistantAdminBlockedApps;L_WritingAssistantAdminBlockedAppsListId,Blocked application names (e.g.  notepad.exe),software\policies\microsoft\office\16.0\writingassistant\adminblockedapps,
+office16;L_WritingAssistantAdminBlockedUrls,Web pages blocked by Writing Assistance admin policy,NA,NA
+office16;L_WritingAssistantAdminBlockedUrls;L_WritingAssistantAdminBlockedUrlsListId,Blocked URL patterns (e.g.  example.com),software\policies\microsoft\office\16.0\writingassistant\adminblockedurls,
+office16;L_WritingAssistantAdminBlocklistLocked,Lock Writing Assistance admin blocklist,software\policies\microsoft\office\16.0\writingassistant,adminblocklistlocked
+office16;L_WritingAssistantAdminChoiceAdminChoice,Enable Writing Assistance,software\policies\microsoft\office\16.0\writingassistant,writingassistantadminchoice
+office16;L_WritingAssistantFirstRunExperienceAdminChoice,Writing Assistance First Run Experience Mode,NA,NA
+office16;L_WritingAssistantFirstRunExperienceAdminChoice;L_WritingAssistantFirstRunExperienceAdminChoiceDropID,Configure Writing Assistance First Run Experience Mode,software\policies\microsoft\office\16.0\writingassistant,writingassistantfirstrunexperienceadminchoice
+office16;L_WritingAssistantInstallAndStartupAdminChoice,Configure Writing Assistance installation and startup,NA,NA
+office16;L_WritingAssistantInstallAndStartupAdminChoice;L_WritingAssistantInstallAndStartupAdminChoiceEnum,Configure Writing Assistance Install and Startup Behavior,software\policies\microsoft\office\16.0\writingassistant,writingassistantinstallandstartupadminchoice
 office16;L_Xitsonga,Xitsonga,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,ts-za
 office16;L_Yiddish,Yiddish,software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,yi-hebr
 office16;L_YiPRC,Yi (China),software\policies\microsoft\office\16.0\common\languageresources\enabledlanguages,ii-cn
@@ -2630,6 +2700,8 @@ onent16;L_DefaultFontSize;L_FontSize,Font Size:,software\policies\microsoft\offi
 onent16;L_DefaultunitofmeasurementusedinOneNote,Default unit of measurement used in OneNote,NA,NA
 onent16;L_DefaultunitofmeasurementusedinOneNote;L_Specifydefaultunitofmeasurement,Specify default unit of measurement:,software\policies\microsoft\office\16.0\onenote\options\other,measurementunit
 onent16;L_Disableaudosearch,Disable audio search,software\policies\microsoft\office\16.0\onenote\options\other,enableaudiosearch
+onent16;L_disablecommandbarbuttonsandmenuitems290,Disable commands,NA,NA
+onent16;L_disablecommandbarbuttonsandmenuitems290;L_EnteracommandbarIDtodisable,Enter a command bar ID to disable,software\policies\microsoft\office\16.0\onenote\disabledcmdbaritemslist,
 onent16;L_Disableembeddedfiles,Disable embedded files,software\policies\microsoft\office\16.0\onenote\options,disableembeddedfiles
 onent16;L_DisableinstalledOneNoteaddins,Disable installed OneNote Add-ins,software\policies\microsoft\office\16.0\onenote\security,disablealladdins
 onent16;L_DisableLinkedAudiofeature,Disable Linked Audio feature,software\policies\microsoft\office\16.0\onenote\options\audio,disablerecording
@@ -2640,6 +2712,8 @@ onent16;L_DisableOneNoteScreenClippings,Disable OneNote Screen Clippings,softwar
 onent16;L_DisableOutlooksendemailtoOneNoteoption,Disable Outlook send email to OneNote option,software\policies\microsoft\office\16.0\onenote\options\outlookandweb,disablesendemailtoonenote
 onent16;L_Disablepasswordprotectedsections,Disable password protected sections,software\policies\microsoft\office\16.0\onenote\general,passwordprotectiondisabled
 onent16;L_DisableScratchout,Disable scratch out,software\policies\microsoft\office\16.0\onenote\options\pen,disablescratchout
+onent16;L_disableshortcutkeys291,Disable shortcut keys,NA,NA
+onent16;L_disableshortcutkeys291;L_Enterakeyandmodifiertodisable,Enter a key and modifier to disable,software\policies\microsoft\office\16.0\onenote\disabledshortcutkeyslist,
 onent16;L_DisableSupportDiagnostics,Turn off support diagnostics in OneNote,software\policies\microsoft\office\16.0\onenote\general,disablesupportdiagnostics
 onent16;L_Disallowsaddonsaccesstopass,Disallows add-ons access to password protected sections,software\policies\microsoft\office\16.0\onenote\security,allowaddinaccesstoencryptedfiles
 onent16;L_DoNotPruneVersionsOverTime,Do not prune versions over time,software\policies\microsoft\office\16.0\onenote\options\versions,pruneversionsovertime
@@ -2732,9 +2806,13 @@ outlk16;L_Accesstopublishedcalendars,Access to published calendars,software\poli
 outlk16;L_Addnewcategories,Add new categories,NA,NA
 outlk16;L_Addnewcategories;L_Enternewcategoriessemicolondelimited,Enter new categories (semicolon delimited),software\policies\microsoft\office\16.0\outlook\preferences,newcategories
 outlk16;L_AddpeopleIemailtotheSafeSendersList,Add e-mail recipients to users' Safe Senders Lists,software\policies\microsoft\office\16.0\outlook\options\mail,junkmailtrustoutgoingrecipients
+outlk16;L_AddpropertiestoattachmentstoenableReplywithChanges,Add properties to attachments to enable Reply with Changes,NA,NA
+outlk16;L_AddpropertiestoattachmentstoenableReplywithChanges;L_AddpropertiestoattachmentstoenableReplywithChanges,Add properties to attachments to enable Reply with Changes,software\policies\microsoft\office\16.0\outlook\options\mail,adhocreviewbehavior
 outlk16;L_AllowActiveXOneOffForms,Allow Active X One Off Forms,NA,NA
 outlk16;L_AllowActiveXOneOffForms;L_empty29,Allow Active X One Off Forms,software\policies\microsoft\office\16.0\outlook\security,allowactivexoneoffforms
 outlk16;L_Allowattendeestoproposenewtimesformeetingsyouorganize,Allow attendees to propose new times for meetings you organize,software\policies\microsoft\office\16.0\outlook\options\calendar,allowpropose
+outlk16;L_Allowcommasasaddressseparator,Allow commas as address separator,NA,NA
+outlk16;L_Allowcommasasaddressseparator;L_Allowcommasasaddressseparator,Allow commas as address separator,software\policies\microsoft\office\16.0\outlook\preferences,allowcommasinrecip
 outlk16;L_AllowCryptoAutosave,Extend Outlook Autosave to include encrypted e-mail messages,software\policies\microsoft\office\16.0\common\mailsettings,allowautosavecryptomail
 outlk16;L_AllowPrivateKeyCheck,Check for the user's private key when the user sends an encrypted email that includes the user as a recipient,software\policies\microsoft\office\16.0\outlook\security,allowprivatekeycheck
 outlk16;L_AllowSelectionFloaties,Show Mini Toolbar on selection,software\policies\microsoft\office\16.0\common\toolbars\outlook,allowselectionfloaties
@@ -2762,6 +2840,8 @@ outlk16;L_AutomaticallyConfigureProfileBasedOnActive,Automatically configure pro
 outlk16;L_AutomaticallyConfigureProfileBasedOnActiveOnce,Automatically configure profile based on Active Directory Primary SMTP address (one-time only),software\policies\microsoft\office\16.0\outlook\autodiscover,zeroconfigexchangeonce
 outlk16;L_Automaticallydownloadenclosures,Automatically download enclosures,software\policies\microsoft\office\16.0\outlook\options\rss,enableattachments
 outlk16;L_AutomaticallydownloadenclosuresWebCal,Automatically download attachments,software\policies\microsoft\office\16.0\outlook\options\webcal,enableattachments
+outlk16;L_Automaticnamechecking,Automatic name checking,NA,NA
+outlk16;L_Automaticnamechecking;L_Automaticnamechecking,Automatic name checking,software\policies\microsoft\office\16.0\outlook\preferences,autonamecheck
 outlk16;L_Autoselectencodingforoutgoingmessages,Auto-select encoding for outgoing messages,software\policies\microsoft\office\16.0\outlook\options\mshtml\international,autodetect_codepageout
 outlk16;L_BlockAllUnmanagedAddins,Block all unmanaged add-ins,software\policies\microsoft\office\16.0\outlook\resiliency,restricttolist
 outlk16;L_Blockexternalcontent,Display pictures and external content in HTML e-mail,software\policies\microsoft\office\16.0\outlook\options\mail,blockextcontent
@@ -2836,6 +2916,8 @@ outlk16;L_DeletedItemsFolderHomePage,Deleted Items Folder Home Page,NA,NA
 outlk16;L_DeletedItemsFolderHomePage;L_showassociatedwebpage48,Show associated web page,software\policies\microsoft\office\16.0\outlook\webview\deleted items,show
 outlk16;L_DeletedItemsFolderHomePage;L_turnoffinternetexplorersecuritychecksforthiswebpage50,Turn off Windows Internet Explorer security checks for this web page,software\policies\microsoft\office\16.0\outlook\webview\deleted items,security
 outlk16;L_DeletedItemsFolderHomePage;L_urladdressofassociatedwebpage49,URL address of associated web page:,software\policies\microsoft\office\16.0\outlook\webview\deleted items,url
+outlk16;L_DeletemeetingrequestfromInboxwhenresponding,Delete meeting request from Inbox when responding,NA,NA
+outlk16;L_DeletemeetingrequestfromInboxwhenresponding;L_DeletemeetingrequestfromInboxwhenresponding,Delete meeting request from Inbox when responding,software\policies\microsoft\office\16.0\outlook\preferences,deletewhenrespond
 outlk16;L_DetermineOrderOfSourcesForPhotos,Determine order of sources for photos,software\policies\microsoft\office\16.0\outlook,preferadphotos
 outlk16;L_DisableAddinLogging,Disable Windows event logging for Outlook add-ins,software\policies\microsoft\office\16.0\outlook\options\logging,disableaddinlogging
 outlk16;L_DisableAdminNotifications,Disable Outlook tenant admin notifications,software\policies\microsoft\office\16.0\outlook\options\general,disableadminnotifications
@@ -2901,6 +2983,7 @@ outlk16;L_DisallowDownloadHeadersthenFullItemsFileCachedExchangeMode,Disallow Do
 outlk16;L_DisallowOnSlowConnectionsOnlyDownloadHeadersFileCachedExchan,Disallow On Slow Connections Only Download Headers,software\policies\microsoft\office\16.0\outlook\cached mode,noslowheaders
 outlk16;L_DisplayDeveloperTab,Display Developer tab in the Ribbon,software\policies\microsoft\office\16.0\outlook\options,developertools
 outlk16;L_DisplaySenderPicture,Display Sender Picture,software\policies\microsoft\office\16.0\outlook\options\mail,showcontactpicture
+outlk16;L_DLPPolicyTips,Enable Purview Data Loss Prevention (DLP) policy tips in Outlook for Mac,software\policies\microsoft\office\16.0\outlook\preferences,DLPPolicyTips
 outlk16;L_DoNewOutlookAutoMigration,Admin-Controlled Migration to New Outlook,software\policies\microsoft\office\16.0\outlook\options\general,donewoutlookautomigration
 outlk16;L_DoNotAllowHorizontalCalendarView,Do not allow horizontal calendar view,software\policies\microsoft\office\16.0\outlook\options\calendar,disablehorizontalcalendar
 outlk16;L_DoNotAllowOnDemandActivitySynchronization,Do not allow on-demand activity synchronization,software\policies\microsoft\office\outlook\socialconnector,ondemandactivitysync
@@ -3010,7 +3093,7 @@ outlk16;L_LargePSTSizetodisableaddingnewcontent;L_Entersizetodisableaddingnewcon
 outlk16;L_LargePSTSizetodisableaddingnewcontent,Large PST: Size to disable adding new content,NA,NA
 outlk16;L_LayoutOptions,Layout Options,NA,NA
 outlk16;L_LayoutOptions;L_Setglobaltextdirection,Set global text direction:,software\policies\microsoft\office\16.0\outlook\options\calendar,text direction
-outlk16;L_LayoutOptions;L_Setlayoutdirection,Set layout direction:,software\policies\microsoft\office\16.0\outlook\options\calendar,calendar direction
+outlk16;L_LayoutOptions;L_Setlayoutdirection,Set layout direction,software\policies\microsoft\office\16.0\outlook\options\calendar,calendar direction
 outlk16;L_LegacyPSTAbsolutemaximumsize;L_EnterabsolutemaximumsizeforPSTinbytes2,(0 - 2 075 149 312 bytes),software\policies\microsoft\office\16.0\outlook\pst,maxfilesize
 outlk16;L_LegacyPSTAbsolutemaximumsize,Legacy PST: Absolute maximum size,NA,NA
 outlk16;L_LegacyPSTSizetodisableaddingnewcontent;L_EntersizetodisableaddingnewcontenttoPSTinbytes2,(0 - 2 075 149 312 Bytes),software\policies\microsoft\office\16.0\outlook\pst,warnfilesize
@@ -3056,6 +3139,8 @@ outlk16;L_Messagehandling;L_Autosaveunsenteveryxxminutes0NoAutoSave,Autosave uns
 outlk16;L_Messagehandling;L_Closeoriginalmessagewhenreplyorforward,Close original message when reply or forward,software\policies\microsoft\office\16.0\outlook\preferences,closeorig
 outlk16;L_Messagehandling,Message handling,NA,NA
 outlk16;L_Messagehandling;L_SavecopiesofmessagesinSentItemsfolder,Save copies of messages in Sent Items folder,software\policies\microsoft\office\16.0\outlook\preferences,savesent
+outlk16;L_Messagesexpireafterdays,Messages expire after (days),NA,NA
+outlk16;L_Messagesexpireafterdays;L_Messagesexpireafterdays,Messages expire after (days),software\policies\microsoft\office\16.0\outlook\preferences,numdaysexpire
 outlk16;L_MessagewhenOutlookcannotfindthedigitalIDtodecodeamessage;L_Entererrormessagetextmax255characters,Enter error message text (max 255 characters):,software\policies\microsoft\office\16.0\outlook\security,needencryptionstring
 outlk16;L_MessagewhenOutlookcannotfindthedigitalIDtodecodeamessage,Message when Outlook cannot find the digital ID to decode a message,NA,NA
 outlk16;L_MinimizeOutlooktothesystemtray,Minimize Outlook to the system tray,software\policies\microsoft\office\16.0\outlook\preferences,mintotray
@@ -3076,6 +3161,8 @@ outlk16;L_NewMailDesktopAlert,Do not display New Mail alert for users,software\p
 outlk16;L_NewOutlookAutomaticSetupUserSetting,Manage automatic setup of classic Outlook accounts in new Outlook,software\policies\microsoft\office\16.0\outlook\preferences,newoutlookautomaticsetupusersetting
 outlk16;L_NewOutlookAutoMigrationRetryIntervals,Interval between new Outlook migration attempts,NA,NA
 outlk16;L_NewOutlookAutoMigrationRetryIntervals;L_NewOutlookAutoMigrationRetryIntervalsId,New Outlook Auto Migration Retry Interval:,software\policies\microsoft\office\16.0\outlook\options\general,newoutlookautomigrationretryintervals
+outlk16;L_NewOutlookForWindowsCloudType,Select the cloud environment for the new Outlook application,NA,NA
+outlk16;L_NewOutlookForWindowsCloudType;L_NewOutlookForWindowsCloudTypeDropID,Select the cloud environment:,software\policies\microsoft\office\16.0\outlook,newoutlookforwindowscloudtype
 outlk16;L_NewOutlookMigrationUserSetting,Manage user setting for new Outlook automatic migration,software\policies\microsoft\office\16.0\outlook\preferences,newoutlookmigrationusersetting
 outlk16;L_NoPromptLevel1Close,Do not prompt about Level 1 attachments when closing an item,software\policies\microsoft\office\16.0\outlook\security,dontpromptlevel1attachclose
 outlk16;L_NoPromptLevel1Send,Do not prompt about Level 1 attachments when sending an item,software\policies\microsoft\office\16.0\outlook\security,dontpromptlevel1attachsend
@@ -3261,8 +3348,12 @@ outlk16;L_SetDefaultSearchScope,Set default search scope,NA,NA
 outlk16;L_SetDefaultSearchScope;L_SetDefaultSearchScopeDropID,Set default search scope,software\policies\microsoft\office\16.0\outlook\search,defaultsearchscope
 outlk16;L_SetGALContactSynchronizationInterval,Set GAL contact synchronization interval,NA,NA
 outlk16;L_SetGALContactSynchronizationInterval;L_SetGALContactSynchronizationIntervalSpinID,Synchronization interval (in minutes):,software\policies\microsoft\office\outlook\socialconnector,contactsyncinterval
+outlk16;L_Setimportance,Set importance,NA,NA
+outlk16;L_Setimportance;L_Setimportance,Set importance,software\policies\microsoft\office\16.0\outlook\preferences,importance
 outlk16;L_SetMaximumNumberOfExchangeAccounts,Set maximum number of Exchange accounts per profile,NA,NA
 outlk16;L_SetMaximumNumberOfExchangeAccounts;L_SetMaximumNumberOfExchangeAccountsSpinID,Number of Accounts:,software\policies\microsoft\exchange,maxnumexchange
+outlk16;L_Setsensitivity,Set sensitivity,NA,NA
+outlk16;L_Setsensitivity;L_Setsensitivity,Set sensitivity,software\policies\microsoft\office\16.0\outlook\preferences,sensitivity
 outlk16;L_SetTrustedAddins;L_ListOfTrustedAddins,List of trusted add-ins and hashes,software\policies\microsoft\office\16.0\outlook\security\trustedaddins,
 outlk16;L_SetTrustedAddins,Configure trusted add-ins,NA,NA
 outlk16;L_ShortenEventsType;L_SelecttheShortenEventsType,Select the Shorten Events Type,software\policies\microsoft\office\16.0\outlook\options\calendar,shortenevents
@@ -3327,6 +3418,8 @@ outlk16;L_SpecifyWaitOnSendTimeoutForDLPEvaluation;L_SpecifyWaitOnSendTimeoutFor
 outlk16;L_SpoofyEmails,Hide warnings about suspicious domain names in e-mail addresses,software\policies\microsoft\office\16.0\outlook\options\mail,outlookenablespoofyemails
 outlk16;L_StationeryFonts;L_Stationeryfontoptions,Stationery font options:,software\policies\microsoft\office\16.0\common\mailsettings,themefont
 outlk16;L_StationeryFonts,Stationery Fonts,NA,NA
+outlk16;L_SuggestnameswhilecompletingToCcandBccfields,Suggest names while completing To  Cc  and Bcc fields,NA,NA
+outlk16;L_SuggestnameswhilecompletingToCcandBccfields;L_SuggestnameswhilecompletingToCcandBccfields,Suggest names while completing To  Cc  and Bcc fields,software\policies\microsoft\office\16.0\outlook\preferences,showautosug
 outlk16;L_SynchronizeOutlookRSSFeedswithCommonFeedList,Synchronize Outlook RSS Feeds with Common Feed List,software\policies\microsoft\office\16.0\outlook\options\rss,synctosyscfl
 outlk16;L_Synchronizingdatainsharedfolders;L_NumberOfDays,Number of days,software\policies\microsoft\office\16.0\outlook\cached mode,sharedfolderageoutdays
 outlk16;L_Synchronizingdatainsharedfolders,Synchronizing data in shared folders,NA,NA
@@ -3372,19 +3465,67 @@ outlk16;L_Whensendingamessage;L_AddpropertiestoattachmentstoenableReplywithChang
 outlk16;L_Whensendingamessage;L_Allowcommasasaddressseparator,Allow commas as address separator,software\policies\microsoft\office\16.0\outlook\preferences,allowcommasinrecip
 outlk16;L_Whensendingamessage;L_Automaticnamechecking,Automatic name checking,software\policies\microsoft\office\16.0\outlook\preferences,autonamecheck
 outlk16;L_Whensendingamessage;L_DeletemeetingrequestfromInboxwhenresponding,Delete meeting request from Inbox when responding,software\policies\microsoft\office\16.0\outlook\preferences,deletewhenrespond
-outlk16;L_Whensendingamessage;L_Messagesexpireafterdays,Messages expire after (days):,software\policies\microsoft\office\16.0\outlook\preferences,numdaysexpire
-outlk16;L_Whensendingamessage;L_Setimportance,Set importance:,software\policies\microsoft\office\16.0\outlook\preferences,importance
-outlk16;L_Whensendingamessage;L_Setsensitivity,Set sensitivity:,software\policies\microsoft\office\16.0\outlook\preferences,sensitivity
+outlk16;L_Whensendingamessage;L_Messagesexpireafterdays,Messages expire after (days),software\policies\microsoft\office\16.0\outlook\preferences,numdaysexpire
+outlk16;L_Whensendingamessage;L_Setimportance,Set importance,software\policies\microsoft\office\16.0\outlook\preferences,importance
+outlk16;L_Whensendingamessage;L_Setsensitivity,Set sensitivity,software\policies\microsoft\office\16.0\outlook\preferences,sensitivity
 outlk16;L_Whensendingamessage;L_SuggestnameswhilecompletingToCcandBccfields,Suggest names while completing To  Cc  and Bcc fields,software\policies\microsoft\office\16.0\outlook\preferences,showautosug
-outlk16;L_Whensendingamessage,When sending a message,NA,NA
+outlk16;L_Whensendingamessage,[Deprecated] When sending a message,NA,NA
 outlk16;L_WorkflowTasksinOutlook,Do not display "Open this task" button for workflow tasks,software\policies\microsoft\office\common\workflow,disabletaskedit
 outlk16;L_Workinghours;L_EndTime,End Time:,software\policies\microsoft\office\16.0\outlook\options\calendar,caldefend
 outlk16;L_Workinghours;L_Starttime,Start time:,software\policies\microsoft\office\16.0\outlook\options\calendar,caldefstart
 outlk16;L_Workinghours,Working hours,NA,NA
 outlk16;L_Workweek;L_Lengthofworkweek,Length of work week:,software\policies\microsoft\office\16.0\outlook\options\calendar,workday
 outlk16;L_Workweek,Work week,NA,NA
+outlooknew;L_AlwaysShowBcc,Always show Bcc when composing emails in new Outlook and Outlook on the web,NA,NA
+outlooknew;L_AlwaysShowBcc;L_AlwaysShowBccOptions,Always show Bcc when composing a message:,software\policies\microsoft\office\16.0\outlook,AlwaysShowBcc
+outlooknew;L_AlwaysShowBcc;L_AlwaysShowBccUserOverride,Allow user to override this setting:,software\policies\microsoft\office\16.0\outlook,AlwaysShowBccUserOverride
 outlooknew;L_ContactSupport,Allow access to Contact Support in the new Outlook,software\policies\microsoft\office\16.0\outlook\options\general,contactsupport
+outlooknew;L_DefaultReadingPaneReplyBehavior,Choose reply or reply all as the default response when replying from the reading pane,NA,NA
+outlooknew;L_DefaultReadingPaneReplyBehavior;L_DefaultReadingPaneReplyBehaviorOptions,Default reply behavior in the reading pane:,software\policies\microsoft\office\16.0\outlook,DefaultReadingPaneReplyBehavior
+outlooknew;L_DefaultReadingPaneReplyBehavior;L_DefaultReadingPaneReplyBehaviorUserOverride,Allow user to override this setting:,software\policies\microsoft\office\16.0\outlook,DefaultReadingPaneReplyBehaviorUserOverride
+outlooknew;L_FocusedInbox,Sort emails into Focused and Other to help users focus on what matters,NA,NA
+outlooknew;L_FocusedInbox;L_FocusedInboxOptions,Configure Focused Inbox:,software\policies\microsoft\office\16.0\outlook,FocusedInbox
+outlooknew;L_FocusedInbox;L_FocusedInboxUserOverride,Allow user to override this setting:,software\policies\microsoft\office\16.0\outlook,FocusedInboxUserOverride
+outlooknew;L_KeyboardStyles,Keyboard styles in new Outlook for Windows and Outlook for the web,NA,NA
+outlooknew;L_KeyboardStyles;L_EnableKeytips,Enable keytips:,software\policies\microsoft\office\16.0\outlook,EnableKeytips
+outlooknew;L_KeyboardStyles;L_KeyboardStylesUserOverride,Allow user to override this setting:,software\policies\microsoft\office\16.0\outlook,KeyboardStylesUserOverride
+outlooknew;L_KeyboardStyles;L_WebKeyboardShortcutStyle,Outlook for the web keyboard shortcut style (only applicable to Outlook for the web):,software\policies\microsoft\office\16.0\outlook,WebKeyboardShortcutStyle
+outlooknew;L_KeyboardStyles;L_WindowsKeyboardShortcutStyle,Outlook for Windows keyboard shortcut style (only applicable to Outlook for Windows):,software\policies\microsoft\office\16.0\outlook,WindowsKeyboardShortcutStyle
+outlooknew;L_MentionNamesWithAtSymbol,Mention names with @ symbol in a message,NA,NA
+outlooknew;L_MentionNamesWithAtSymbol;L_MentionNamesWithAtSymbolOptions,Mention names with @ symbol in a message:,software\policies\microsoft\office\16.0\outlook,MentionNamesWithAtSymbol
+outlooknew;L_MentionNamesWithAtSymbol;L_MentionNamesWithAtSymbolUserOverride,Allow user to override this setting:,software\policies\microsoft\office\16.0\outlook,MentionNamesWithAtSymbolUserOverride
+outlooknew;L_NotificationSettings,Notifications for Outlook for Windows and Outlook on the web,NA,NA
+outlooknew;L_NotificationSettings;L_CopilotReschedulingNotifications,Show automatic copilot rescheduling in notifications pane:,software\policies\microsoft\office\16.0\outlook,CopilotReschedulingNotifications
+outlooknew;L_NotificationSettings;L_DocumentNotifications,Get notifications for comments  edits  and mentions in documents:,software\policies\microsoft\office\16.0\outlook,DocumentNotifications
+outlooknew;L_NotificationSettings;L_EnvelopeBadge,Show an envelope badge in the taskbar for mail notifications (only applicable to Outlook for Windows):,software\policies\microsoft\office\16.0\outlook,EnvelopeBadge
+outlooknew;L_NotificationSettings;L_EventReminderSound,Play sound for Event reminders:,software\policies\microsoft\office\16.0\outlook,EventReminderSound
+outlooknew;L_NotificationSettings;L_FavoritePeopleNotifications,Only get notifications from favorite people:,software\policies\microsoft\office\16.0\outlook,FavoritePeopleNotifications
+outlooknew;L_NotificationSettings;L_GetEmailReactionMentionNotifications,Get notifications for new email  reactions and mentions:,software\policies\microsoft\office\16.0\outlook,GetEmailReactionMentionNotifications
+outlooknew;L_NotificationSettings;L_GetNotifications,Get notifications from Outlook and other apps:,software\policies\microsoft\office\16.0\outlook,GetNotifications
+outlooknew;L_NotificationSettings;L_GroupNotifications,Group Notification received in quick succession:,software\policies\microsoft\office\16.0\outlook,GroupNotifications
+outlooknew;L_NotificationSettings;L_MailNotificationSound,Play sounds for mail notifications:,software\policies\microsoft\office\16.0\outlook,MailNotificationSound
+outlooknew;L_NotificationSettings;L_NotificationSettingsUserOverride,Allow user to override this setting:,software\policies\microsoft\office\16.0\outlook,NotificationSettingsUserOverride
+outlooknew;L_NotificationSettings;L_NotificationsPlaySound,Allow notifications to play a sound:,software\policies\microsoft\office\16.0\outlook,NotificationsPlaySound
+outlooknew;L_NotificationSettings;L_ReactionNotificationSound,Play sound for reaction notifications:,software\policies\microsoft\office\16.0\outlook,ReactionNotificationSound
+outlooknew;L_NotificationSettings;L_ReactionNotificationStyle,Notification style for reactions:,software\policies\microsoft\office\16.0\outlook,ReactionNotificationStyle
+outlooknew;L_NotificationSettings;L_SendNotificationsWhenClosed,Send notifications when Outlook is closed (only applicable to Outlook for Windows):,software\policies\microsoft\office\16.0\outlook,SendNotificationsWhenClosed
+outlooknew;L_NotificationSettings;L_ShowDocumentNotificationsInPane,Show notifications for comments  edits  and mentions in notification pane:,software\policies\microsoft\office\16.0\outlook,ShowDocumentNotificationsInPane
+outlooknew;L_NotificationSettings;L_ShowMentionsInPane,Show @ mentions in Notification pane:,software\policies\microsoft\office\16.0\outlook,ShowMentionsInPane
+outlooknew;L_NotificationSettings;L_ShowReactionsInPane,Show reactions in Notification pane:,software\policies\microsoft\office\16.0\outlook,ShowReactionsInPane
+outlooknew;L_NotificationSettings;L_WebEventReminderStyle,Outlook for the web event reminders notification style (only applicable to Outlook on the web):,software\policies\microsoft\office\16.0\outlook,WebEventReminderStyle
+outlooknew;L_NotificationSettings;L_WebMailNotificationStyle,Outlook for the web mail notifications style (only applicable to Outlook on the web):,software\policies\microsoft\office\16.0\outlook,WebMailNotificationStyle
+outlooknew;L_NotificationSettings;L_WindowsEventReminderStyle,Outlook for Windows Event reminders notification style (only applicable to Outlook for Windows):,software\policies\microsoft\office\16.0\outlook,WindowsEventReminderStyle
+outlooknew;L_NotificationSettings;L_WindowsMailNotificationStyle,Outlook for Windows mail notifications style (only applicable to Outlook for Windows):,software\policies\microsoft\office\16.0\outlook,WindowsMailNotificationStyle
 outlooknew;L_OutlookForWindowsPrimaryAccountMustMatchDeviceSignInAccount,Require the Primary Account to match the Windows signed-in account,software\policies\microsoft\office\16.0\outlook,outlookforwindowsprimaryaccountmustmatchdevicesigninaccount
+outlooknew;L_ShowAllAccountsView,Show All Accounts view for users with multiple accounts in Outlook for Windows,NA,NA
+outlooknew;L_ShowAllAccountsView;L_ShowAllAccountsView,Configure the unified inbox view:,software\policies\microsoft\office\16.0\outlook,ShowAllAccountsView
+outlooknew;L_ShowAllAccountsView;L_ShowAllAccountsViewUserOverride,Allow user to override this setting:,software\policies\microsoft\office\16.0\outlook,ShowAllAccountsViewUserOverride
+outlooknew;L_ShowAutoCompleteList,Show auto-complete suggestions list when typing in To  Cc  and Bcc lines,NA,NA
+outlooknew;L_ShowAutoCompleteList;L_ShowAutoCompleteListOptions,Show auto-complete suggestions list:,software\policies\microsoft\office\16.0\outlook,ShowAutoCompleteList
+outlooknew;L_ShowAutoCompleteList;L_ShowAutoCompleteListUserOverride,Allow user to override this setting:,software\policies\microsoft\office\16.0\outlook,ShowAutoCompleteListUserOverride
+outlooknew;L_UseCommaAsRecipientDelimiter,Use comma as a recipient delimiter,NA,NA
+outlooknew;L_UseCommaAsRecipientDelimiter;L_UseCommaAsRecipientDelimiterOptions,Use comma as a recipient delimiter:,software\policies\microsoft\office\16.0\outlook,UseCommaAsRecipientDelimiter
+outlooknew;L_UseCommaAsRecipientDelimiter;L_UseCommaAsRecipientDelimiterUserOverride,Allow user to override this setting:,software\policies\microsoft\office\16.0\outlook,UseCommaAsRecipientDelimiterUserOverride
 ppt16;L_AllowAutoExtendForDesktop,Allow PowerPoint to also automatically extend the display when presenting on a desktop,software\policies\microsoft\office\16.0\powerpoint\options,allowautoextendfordesktop
 ppt16;L_AllowSelectionFloaties,Show Mini Toolbar on selection,software\policies\microsoft\office\16.0\common\toolbars\powerpoint,allowselectionfloaties
 ppt16;L_AllowTrustedLocationsOnTheNetwork,Allow Trusted Locations on the network,software\policies\microsoft\office\16.0\powerpoint\security\trusted locations,allownetworklocations
@@ -4018,8 +4159,9 @@ pub16;L_VBAWarningsPolicy;L_VBAOnlyAllowLMTrustedPublisherStr,Block certificates
 pub16;L_VBAWarningsPolicy,VBA Macro Notification Settings,NA,NA
 pub16;L_Whenformattingautomaticallyformatentireword,When formatting  automatically format entire word,software\policies\microsoft\office\16.0\publisher\preferences,autowordformat
 pub16;L_Whenselectingautomaticallyselectentireword,When selecting  automatically select entire word,software\policies\microsoft\office\16.0\publisher\preferences,autowordsel
-teams16;L_DeviceStoreBrowsePurchase,Users can purchase devices in the Teams device store,NA,NA
+teams16;L_CopilotMeetingOnlyGrounding,Limit Copilot Grounding to Teams Meeting Content,software\policies\microsoft\office\16.0\common\copilot,CopilotMeetingOnlyGrounding
 teams16;L_DeviceStoreBrowsePurchase;L_DeviceStoreBrowse,Allow users to browse,software\policies\microsoft\office\16.0\teams\devicestore,isAllowedToBrowse
+teams16;L_DeviceStoreBrowsePurchase,Users can purchase devices in the Teams device store,NA,NA
 teams16;L_DeviceStoreBrowsePurchase;L_DeviceStorePurchase,Allow users to purchase,software\policies\microsoft\office\16.0\teams\devicestore,isAllowedToPurchase
 teams16;String_Teams_SignInRestriction_Policy;RestrictTeamsSignInToAccountsFromTenantList,Tenant IDs:,software\policies\microsoft\office\16.0\teams,restrictteamssignintoaccountsfromtenantlist
 teams16;String_Teams_SignInRestriction_Policy,Restrict sign in to Teams to accounts in specific tenants,NA,NA
@@ -4257,6 +4399,7 @@ word16;L_AdjustformattingwhenpastingfromMicrosoftExcel,Adjust formatting when pa
 word16;L_Adjustparagraphspacingonpaste,Adjust paragraph spacing on paste,software\policies\microsoft\office\16.0\word\options,smartparapaste
 word16;L_Adjustsentenceandwordspacingautomatically,Adjust sentence and word spacing automatically,software\policies\microsoft\office\16.0\word\options,smartsentencewordspacing
 word16;L_Adjusttableformattingandalignmentonpaste,Adjust table formatting and alignment on paste,software\policies\microsoft\office\16.0\word\options,smarttablepaste
+word16;L_AdvancedTypographyOutlook,Allow Advanced Typography features for Outlook,software\policies\microsoft\office\16.0\common\mailsettings,advancedtypographyall
 word16;L_AlertIfNotDefault,Prompt the user if Word is not the default application for its file extensions,software\policies\microsoft\office\16.0\word\options,alertifnotdefault
 word16;L_AllowA4Letterpaperresizing,Scale content for A4 or 8.5'' x 11'' paper sizes,software\policies\microsoft\office\16.0\word\options,mapstdsizes
 word16;L_AllowaccenteduppercaseinFrench,Allow accented uppercase in French,software\policies\microsoft\office\16.0\word\options,accentonupper
@@ -4306,6 +4449,7 @@ word16;L_ConfigureCNGCipherChainingMode;L_ConfigureCNGCipherChainingModeDropID,C
 word16;L_ConfirmconversionatOpen,Confirm file format conversion on open,software\policies\microsoft\office\16.0\word\options,confirmfileconversion
 word16;L_Controlcharacters,Show control characters,software\policies\microsoft\office\16.0\word\options,showctrlchars
 word16;L_ConvertCommonTerms,Convert common terms,software\policies\microsoft\shared tools\proofing tools\tcsc translator,translatecommonterms
+word16;L_CopilotLegalAgent,Legal Skills in M365 Copilot in Word,software\policies\microsoft\office\16.0\word\copilot,CopilotLegalAgent
 word16;L_CopyRemotelyStoredFiles,Copy remotely stored files onto your computer  and update the remote file when saving,software\policies\microsoft\office\16.0\word\options,makelocalcopy
 word16;L_CorrectaccidentalusageofcAPSLOCKkey,Correct accidental usage of cAPS LOCK key,software\policies\microsoft\office\16.0\word\options\assist,fcapslock_40_1
 word16;L_Correctkeyboardsetting,Correct keyboard setting,software\policies\microsoft\office\16.0\word\options\assist,fcorrectkeyboard_64_1
@@ -4364,6 +4508,7 @@ word16;L_Disableshortcutkeys,Disable shortcut keys,NA,NA
 word16;L_DisableTrustBarNotificationforunsigned,Disable Trust Bar Notification for unsigned application add-ins and block them,software\policies\microsoft\office\16.0\word\security,notbpromptunsignedaddin
 word16;L_DisableTrustedLoc,Disable all trusted locations,software\policies\microsoft\office\16.0\word\security\trusted locations,alllocationsdisabled
 word16;L_DisableWarningOnIncludeFieldsUpdate,Don’t ask permission before updating IncludePicture and IncludeText fields in Word,software\policies\microsoft\office\16.0\word\security,disablewarningonincludefieldsupdate
+word16;L_DisableWPM,Disable lock‑free coauthoring,software\policies\microsoft\office\16.0\word\coauthoring,disablewpm
 word16;L_DisplayDeveloperTab,Display Developer tab in the Ribbon,software\policies\microsoft\office\16.0\word\options,developertools
 word16;L_Documentproperties,Print document properties,software\policies\microsoft\office\16.0\word\options\vprsu,summary_1_1
 word16;L_Documentview,Document view,NA,NA
@@ -4398,6 +4543,7 @@ word16;L_Fractions12withfractioncharacter,Fractions (1/2) with fraction characte
 word16;L_Frontofsheet,Print on front of the sheet for duplex printing,software\policies\microsoft\office\16.0\word\options\vprsu,fprorder1_21_1
 word16;L_Headings,Headings,software\policies\microsoft\office\16.0\word\options\assist,fheading_280_1
 word16;L_Hiddentext,Hidden text,software\policies\microsoft\office\16.0\word\options,showhiddentext
+word16;L_HidePiiRemovedWarningBar,Hide the PII Removed Warning Bar,software\policies\microsoft\office\16.0\word\options,hidepiiremovedwarningbar
 word16;L_Highlight,Show highlighter marks,software\policies\microsoft\office\16.0\word\options,showhighlight
 word16;L_Horizontalscrollbar,Show horizontal scroll bar,software\policies\microsoft\office\16.0\word\options,horizontalscrollbar
 word16;L_Ignorepunctuationcharacters,Ignore punctuation characters,software\policies\microsoft\office\16.0\word\options\vpreffuz,fignorepunct_18_1
@@ -4509,11 +4655,12 @@ word16;L_SetNumberOfPlacesInTheRecentPlacesList,Number of folders in the Recent 
 word16;L_SetNumberOfPlacesInTheRecentPlacesList;L_SetNumberOfPlacesInTheRecentPlacesListSpinID,Number of folders in the Recent Folders list,software\policies\microsoft\office\16.0\word\place mru,max display
 word16;L_SetParametersForCNGContext,Set parameters for CNG context,NA,NA
 word16;L_SetParametersForCNGContext;L_SetParametersForCNGContextID,Parameters,software\policies\microsoft\office\16.0\word\security\crypto,context
-word16;L_ShowAgreementsRibbon,Show Agreements Ribbon,software\policies\microsoft\office\16.0\word\options,showagreementsribbon
-word16;L_ShowESignRibbon,Allow the use of SharePoint eSignature for Microsoft Word,software\policies\microsoft\office\16.0\word\options,isesignenabled
+word16;L_ShowAgreementsRibbon,Enable Manage Ribbon,software\policies\microsoft\office\16.0\word\options,showagreementsribbon
+word16;L_ShowESignRibbon,Allow the use of eSignature for Microsoft Word,software\policies\microsoft\office\16.0\word\options,isesignenabled
 word16;L_ShowPeople,Show pictures in comments,software\policies\microsoft\office\16.0\word\options,revmodeshowpeople
 word16;L_ShowpixelsforHTMLfeatures,Show pixels for HTML features,software\policies\microsoft\office\16.0\word\options,pixelsindialogs
 word16;L_Showreadabilitystatistics,Show readability statistics,software\policies\microsoft\office\16.0\word\options,showstats
+word16;L_SkipOpenDueToLongLocalPath,Skip Opening Local Files with Long Paths,software\policies\microsoft\office\16.0\word,skipopenduetolonglocalpath
 word16;L_Smartstylebehavior,Smart style behavior,software\policies\microsoft\office\16.0\word\options,smartstylepaste
 word16;L_Spaces,Spaces,software\policies\microsoft\office\16.0\word\options,showspaces
 word16;L_SpecifyCNGHashAlgorithm,Specify CNG hash algorithm,NA,NA
