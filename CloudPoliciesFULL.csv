@@ -1,5 +1,4 @@
 Id,Name,registryKeyPath,registrySubPath
-Id,Name,registryKeyPath,registrySubPath
 AcceptPowerpointDesignerPrivacy,Accept PowerPoint Designer privacy,Software/Microsoft/Office/16.0/PowerPoint/Options/SuggestionsPrivacyDialogLastShow,
 AllowVisualBasicToBindToSystem,Allow Use of system() from Visual Basic,NA,NA
 AlternateRuntimeLocaleIdentifierInExcel,East Asian Language selection for Excel,NA,NA
